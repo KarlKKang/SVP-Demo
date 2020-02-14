@@ -6,10 +6,10 @@ function updateBackground() {
     document.getElementById("mainBody").style.background = "#323232";
   }
   else if (h/w>4/3) {
-    document.getElementById("mainBody").style.background = "url(https://storage.googleapis.com/svp-demo/images/DP_0011_veED_009_1620x2160.png) no-repeat center center";
+    document.getElementById("mainBody").style.background = "url(images/DP_0011_veED_009_1620x2160.png) no-repeat center center";
   }
   else {
-    document.getElementById("mainBody").style.background = "url(https://storage.googleapis.com/svp-demo/images/DP_0011_veED_009_3840x2160.jpg) no-repeat center center";
+    document.getElementById("mainBody").style.background = "url(images/DP_0011_veED_009_3840x2160.jpg) no-repeat center center";
   }
   document.getElementById("mainBody").style.backgroundAttachment = "fixed";
   document.getElementById("mainBody").style.backgroundSize = "cover";
@@ -38,4 +38,32 @@ function mobileCheck() {
   var isMobile = /Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/i.test(navigator.userAgent);
 
   return isMobile;
+}
+
+
+function resolutionSwitch (dropdown) {
+  console.log("resolution switch detected");
+  var resolution = dropdown.options[dropdown.selectedIndex].value;
+  console.log("--selected resolution " + resolution);
+  var video = dropdown.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0];
+  var videoDirectory = video.src;
+  console.log("--current file directory " + videoDirectory);
+  var newVideoDirectory;
+
+  newVideoDirectory = generateNewDirectory (videoDirectory, resolution);
+  video.setAttribute("src", newVideoDirectory);
+  console.log("--new file directory " + dropdown.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0].src);
+
+  video.parentNode.load();
+  
+}
+
+
+function generateNewDirectory (currentDirectory, resolution) {
+  var newDirectory;
+
+  newDirectory = currentDirectory.replace("1080p", resolution);
+  newDirectory = newDirectory.replace("2160p", resolution);
+
+  return newDirectory;
 }
