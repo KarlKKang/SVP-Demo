@@ -4,9 +4,12 @@
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
-	<video controls autoplay onended="window.location.replace("index.html");">
+	<video controls autoplay>
 		<source src="https://storage.googleapis.com/svp-demo/videos/test/2160p.mp4" type="video/mp4">
 		<source src="https://storage.googleapis.com/svp-demo/videos/test/1080p.mp4" type="video/mp4">
 	</video>
+	<script>
+		document.getElementsByTagName("video")[0].onended = function() {window.location.replace("index.html");};
+	</script>
 </body>
 </html>
