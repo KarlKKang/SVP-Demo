@@ -1,0 +1,66 @@
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body {
+  background: #000000;
+  background-attachment = "fixed"
+  background-size: cover;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.VideoFrame{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  max-width: 1500px;
+  display: table;
+  margin: 0 auto 5% auto;
+}
+
+video{
+  width: 100%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  transition: 0.4s;
+  font-size:medium;
+}
+
+.date {
+  text-align: center;
+  color: rgb(100,100,100);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: rgba(255, 255, 255, 0.25);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
