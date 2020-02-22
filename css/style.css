@@ -16,11 +16,6 @@ body {
   padding-bottom: 5%;
 }
 
-h1, h3, .date {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-}
-
 h3 {
   font-weight: normal; 
 }
