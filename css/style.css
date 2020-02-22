@@ -21,6 +21,10 @@ h1, h3 {
   margin-block-end: 1%;
 }
 
+h3 {
+  font-weight: normal; 
+}
+
 .VideoFrame{
   background-color: rgba(255, 255, 255, 0.5);
   padding-top: 5%;
