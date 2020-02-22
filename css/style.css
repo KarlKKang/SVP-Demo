@@ -17,8 +17,8 @@ body {
 }
 
 h1, h3, .date {
-  margin-block-start: 1%;
-  margin-block-end: 1%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 h3 {
