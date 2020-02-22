@@ -16,6 +16,11 @@ body {
   padding-bottom: 5%;
 }
 
+h1, h2 {
+  margin-block-start: 3%;
+  margin-block-end: 3%;
+}
+
 .VideoFrame{
   background-color: rgba(255, 255, 255, 0.5);
   padding-top: 5%;
