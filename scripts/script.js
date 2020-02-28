@@ -5,7 +5,7 @@ function updateBackground() {
   if (mobileCheck()){
     document.getElementById("mainBody").style.background = "#323232";
   }
-  else if (h/w>4/3) {
+  else if (ratio>4/3) {
     document.getElementById("mainBody").style.background = "url(https://storage.googleapis.com/svp-demo/images/DP_0011_veED_009_1620x2160.png) no-repeat center center";
   }
   else {
@@ -42,17 +42,13 @@ function mobileCheck() {
 
 
 function resolutionSwitch (dropdown) {
-  console.log("resolution switch detected");
   var resolution = dropdown.options[dropdown.selectedIndex].value;
-  console.log("--selected resolution " + resolution);
   var video = dropdown.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0];
   var videoDirectory = video.src;
-  console.log("--current file directory " + videoDirectory);
   var newVideoDirectory;
 
   newVideoDirectory = generateNewDirectory (videoDirectory, resolution);
   video.setAttribute("src", newVideoDirectory);
-  console.log("--new file directory " + dropdown.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0].src);
 
   video.parentNode.load();
   

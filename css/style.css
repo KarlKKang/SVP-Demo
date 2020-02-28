@@ -8,7 +8,7 @@ a:hover {text-decoration: underline;}
 
 body {
   background: #000000;
-  background-attachment = "fixed"
+  background-attachment: "fixed";
   background-size: cover;
   padding-top: 5%;
   padding-right: 5%;
