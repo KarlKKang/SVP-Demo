@@ -1,173 +1,168 @@
 @font-face {
-  font-family: Source Han Sans JP;
-  src: url("../fonts/ja/Source Han Sans JP Medium.otf");
-  font-weight: normal;
+    font-family: Source Han Sans JP;
+    src: url("../fonts/ja/Source Han Sans JP Medium.otf");
+    font-weight: normal;
 }
-
 @font-face {
-  font-family: Source Han Sans JP;
-  src: url("../fonts/ja/Source Han Sans JP Bold 2.001.otf");
-  font-weight: bold;
+    font-family: Source Han Sans JP;
+    src: url("../fonts/ja/Source Han Sans JP Bold 2.001.otf");
+    font-weight: bold;
 }
-
 @font-face {
-  font-family: Source Han Sans CN;
-  src: url("../fonts/zh/思源黑体 CN Medium.otf");
-  font-weight: normal;
+    font-family: Source Han Sans CN;
+    src: url("../fonts/zh/思源黑体 CN Medium.otf");
+    font-weight: normal;
 }
-
 @font-face {
-  font-family: Source Han Sans CN;
-  src: url("../fonts/zh/思源黑体 CN Bold 2.001.otf");
-  font-weight: bold;
+    font-family: Source Han Sans CN;
+    src: url("../fonts/zh/思源黑体 CN Bold 2.001.otf");
+    font-weight: bold;
 }
-
 @font-face {
-  font-family: Arial;
-  src: url("../fonts/en/Arial.ttf");
-  font-weight: normal;
+    font-family: Arial;
+    src: url("../fonts/en/Arial.ttf");
+    font-weight: normal;
 }
-
 @font-face {
-  font-family: Arial;
-  src: url("../fonts/en/Arial Bold.ttf");
-  font-weight: bold;
+    font-family: Arial;
+    src: url("../fonts/en/Arial Bold.ttf");
+    font-weight: bold;
 }
-
 @font-face {
-  font-family: Arial;
-  src: url("../fonts/en/Arial Italic.ttf");
-  font-weight: normal;
-  font-style: italic;
+    font-family: Arial;
+    src: url("../fonts/en/Arial Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
 }
-
 @font-face {
-  font-family: Arial;
-  src: url("../fonts/en/Arial Bold Italic.ttf");
-  font-weight: bold;
-  font-style: italic;
+    font-family: Arial;
+    src: url("../fonts/en/Arial Bold Italic.ttf");
+    font-weight: bold;
+    font-style: italic;
 }
 
-
-a {text-decoration: none;}
-
-a:hover {text-decoration: underline;}
-
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 * {
-  font-family: "Source Han Sans JP", "Source Han Sans CN", "Arial" !important;
+    font-family: "Source Han Sans JP", "Source Han Sans CN", "Arial" !important;
 }
 
 body {
-  background: #ffffff;
-  background-attachment: "fixed";
-  background-size: cover;
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
+    background: #ffffff;
+    background-attachment: "fixed";
+    background-size: cover;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
-
 h3 {
-  font-weight: normal; 
+    font-weight: normal;
 }
-
-.VideoFrame{
-  background-color: rgba(255, 255, 255, 0.5);
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
-  width: 90%;
-  max-width: 1500px;
-  display: table;
-  margin: 0 auto 5% auto;
+.VideoFrame {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    max-width: 1500px;
+    display: table;
+    margin: 0 auto 5% auto;
 }
-
-video{
-  width: 100%;
-  display: block;
-  float: left;
+video {
+    width: 100%;
+    display: block;
+    float: left;
 }
-
 .date {
-  text-align: center;
-  color: rgb(100,100,100);
+    text-align: center;
+    color: rgb(100, 100, 100);
 }
-
 select {
-  margin: 10px 0px;
-  width: 150px;
-  padding: 5px 35px 5px 5px;
-  border: none;
-  border-radius: 0px;
-  height: 34px;
-  background: transparent;
-  background-color: rgba(255, 255, 255, 0.25);
+    margin: 10px 0px;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    border: none;
+    border-radius: 0px;
+    height: 34px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.25);
 }
-
 
 /*////////////////////////////////////////////////////////Accordion////////////////////////////////////////////////////////*/
 .accordion {
-  display: block;
-  float: left;
-  margin: 0px;
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  border-radius: 0px;
-  outline: none;
-  transition: 0.4s;
-  font-size:medium;
+    display: block;
+    float: left;
+    margin: 0px;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    transition: 0.4s;
+    font-size: medium;
 }
-
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #ccc;
+    background-color: #ccc;
 }
-
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
-  margin: 0px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+    padding: 0 18px;
+    margin: 0px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
-
 
 /*////////////////////////////////////////////////////////loader////////////////////////////////////////////////////////*/
 #loadingScreen {
-  position:fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
 }
-
 #loadingAnimation {
-  border: 8px solid #f3f3f3; 
-  border-top: 8px solid #555; 
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  animation: spin 1s linear infinite;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -25px;
-  margin-left: -25px;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
 }
-
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+  0% { 
+      -webkit-transform: rotate(0deg); 
+    }
+  100% { 
+      -webkit-transform: rotate(360deg); 
+    }
 }
