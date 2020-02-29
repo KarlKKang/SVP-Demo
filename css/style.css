@@ -1,9 +1,60 @@
+@font-face {
+  font-family: Arial;
+  src: url("../fonts/en/Arial.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url("../fonts/en/Arial Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url("../fonts/en/Arial Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url("../fonts/en/Arial Bold Italic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Source Han Sans CN;
+  src: url("../fonts/zh/思源黑体 CN Medium.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Source Han Sans CN;
+  src: url("../fonts/zh/思源黑体 CN Bold 2.001.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Source Han Sans JP;
+  src: url("../fonts/ja/Source Han Sans JP Medium.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Source Han Sans JP;
+  src: url("../fonts/ja/Source Han Sans JP Bold 2.001.otf");
+  font-weight: bold;
+}
+
+
 a {text-decoration: none;}
 
 a:hover {text-decoration: underline;}
 
 * {
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-family: "Source Han Sans JP", "Source Han Sans CN", "Arial" !important;
 }
 
 body {
