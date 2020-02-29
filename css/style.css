@@ -34,6 +34,13 @@ h3 {
 
 video{
   width: 100%;
+  display: block;
+  float: left;
+}
+
+.date {
+  text-align: center;
+  color: rgb(100,100,100);
 }
 
 select {
@@ -48,6 +55,9 @@ select {
 }
 
 .accordion {
+  display: block;
+  float: left;
+  margin: 0px;
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -69,13 +79,9 @@ select {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
+  margin: 0px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-}
-
-.date {
-  text-align: center;
-  color: rgb(100,100,100);
 }

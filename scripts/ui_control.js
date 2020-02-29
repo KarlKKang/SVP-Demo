@@ -1,7 +1,5 @@
 function updateBackground() {
-  var w = window.innerWidth;
-  var h = window.innerHeight;
-  var ratio = h/w;
+  var ratio = window.innerHeight/window.innerWidth;
   if (mobileCheck()){
     document.getElementById("mainBody").style.background = "#323232";
   }
