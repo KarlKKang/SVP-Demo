@@ -22,7 +22,7 @@ function createVideoContainer (title, subtitle, date, is4K, thumbnail, filePath,
 	if (subtitle=='none'||subtitle=='') {
 		subtitleSegment = '';
 	} else {
-		subtitleSegment = '<h3 align="center">' + subtitle + '</h3>'
+		subtitleSegment = '<h3 align="center">' + subtitle + '</h3>';
 	}
 	
 	

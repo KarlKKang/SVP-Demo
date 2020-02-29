@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	
 <head> 
 <title>Smooth Video Project Demo</title> 
 <meta charset="UTF-8">
@@ -25,412 +26,87 @@
 <body id="mainBody" text="#000000" link="#1069c9" vlink="#1069c9" alink="#1069c9" onresize="updateBackground()" onload="initialize ()"> 
 	
 	
-<div class="VideoFrame">
-	<h1 align="center">注意事项</h1>
-	<h3 align="center">OPED的艺术凝聚了一部番的灵魂！</h3>
-	<br />
-	<p class="date">Feb. 21, 2020</p>
-	<br />
-	<hr>
-	<br />
+	<div class="VideoFrame">
+		<h1 align="center">注意事项</h1>
+		<h3 align="center">OPED的艺术凝聚了一部番的灵魂！</h3>
+		<br />
+		<p class="date">Feb. 21, 2020</p>
+		<br />
+		<hr>
+		<br />
 	
-	<button class="accordion">CREDIT</button>
-	<div class="panel">
-		<ol>
-			<li><p><a href="https://www.svp-team.com/">SVP官网</a></p></li>
-			<li><p>此页面上的资源仅供学习交流使用，禁止用于任何商业用途！若喜欢此作品请购买正版支持！</p></li>
-			<li><p>电脑端背景图片来自プレミアム名場面DP，禁止任何下载和拷贝。如有需要请访问<a href="https://www.kyotoanimation.co.jp/shop/dp/">プレミアム名場面DP</a>购买正版。</p></li>
-			<li><p>电脑端背景图片版权 (C)暁佳奈・京都アニメーション／ヴァイオレット・エヴァーガーデン製作委員会</p></li>
-		</ol>
-	</div>
+		<button class="accordion">CREDIT</button>
+		<div class="panel">
+			<ol>
+				<li><p><a href="https://www.svp-team.com/">SVP官网</a></p></li>
+				<li><p>此页面上的资源仅供学习交流使用，禁止用于任何商业用途！若喜欢此作品请购买正版支持！</p></li>
+				<li><p>电脑端背景图片来自プレミアム名場面DP，禁止任何下载和拷贝。如有需要请访问<a href="https://www.kyotoanimation.co.jp/shop/dp/">プレミアム名場面DP</a>购买正版。</p></li>
+				<li><p>电脑端背景图片版权 (C)暁佳奈・京都アニメーション／ヴァイオレット・エヴァーガーデン製作委員会</p></li>
+			</ol>
+		</div>
 	
-	<br />
+		<br />
 	
-	<button class="accordion">关于网页使用</button>
-	<div class="panel">
-		<ol>
-			<li><p>本页面为电脑端优化，请用电脑浏览器访问此网页以获得最佳体验。</p></li>
-		</ol>
-	</div>
+		<button class="accordion">关于网页使用</button>
+		<div class="panel">
+			<ol>
+				<li><p>本页面为电脑端优化，请用电脑浏览器访问此网页以获得最佳体验。</p></li>
+			</ol>
+		</div>
 	
-	<br />
-	
-	<button class="accordion">关于在线播放</button>
-	<div class="panel">
-		<ol>
-			<li><p>请根据网络情况自行选择分辨率播放。默认播放1080p分辨率。</p></li>
-			<li>
-				<p>建议网速：</p>
-				<ul>
-					<li><p>1080p - 10Mbps</p></li>	
-					<li><p>2160p (4K) - 25Mbps</p></li>
-				</ul>	
-			</li>
-			<li><p>部分设备（目前已知所有ios设备）不支持浏览器4K在线播放，在这种情况下即使选择4K也只会播放1080p。 点击<a href="https://storage.googleapis.com/svp-demo/videos/online/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%B6%85%E7%94%B5%E7%A3%81%E7%82%AES%20%5BOP1%5D%5B2160p%5D%5Bx264_aac%5D.mp4">这里</a>测试你的设备是否支持4K播放。</p></li>
-			<li><p>部分视频有使用音轨延迟，如果播放器不支持会导致音轨和视频不同步，遇到这种情况请更换播放器或浏览器。</p></li>
-			<li>
-				<p>Windows浏览器建议：</p>
-				<ul>
-					<li><p>旧版Edge不推荐，不支持音轨延迟。</p></li>	
-					<li><p>新版Chromium Edge同样不推荐，视频播放不流畅，会产生Judder效果。</p></li>
-					<li><p>Chrome推荐。</p></li>
-					<li><p>Firefox推荐。</p></li>
-				</ul>	
-			</li>
-			<li><p>在线播放的视频均为低码率高压缩版，如果需要高质量版请展开“下载链接”菜单下载。</p></li>
-		</ol>
-	</div>
+		<br />
 		
-	<br />
-	
-	<button class="accordion">关于下载</button>
-	<div class="panel">
-		<ol>
-			<li><p>高质量下载版色彩精度为10bit，请仔细配置播放器以获得最佳体验。</p></li>
-			<li><p>新番源均为WebRip，故没有高质量版本提供下载。</p></li>
-		</ol>
-	</div>
-			
-	<br />
-	
-	<button class="accordion">关于视频源的选择</button>
-	<div class="panel">
-		<ol>
-			<li><p>新番源均为WebRip，有蓝光源放流的就会根据情况选择BDMV或BDRip。</p></li>
-			<li><p>关于NC OP/ED：首先新番肯定不会有NC版的。其次如果credit对补帧效果影响不大我们会选择保留credit，如果credit对画面平衡有帮助我们也会保留credit。</p></li>
-			<li><p>至于BD放流后已经做过WebRip的番会不会重做，就要随缘了~</p></li>
-		</ol>
-	</div>
-</div>
-	
-<div id="initiator"></div>
-	
-	
-<!--////////////////////////////////////////////////////////22/7 [OP1]////////////////////////////////////////////////////////-->
-<div class="VideoFrame">
-	<h1 align="center">ムズイ</h1>
-	<h3 align="center">22/7 [OP1]</h3>
-	<br />
-	<p class="date">Feb. 18, 2020</p>
-	<br />
-	<hr>
-	<br />
-	
-        <div class="selectMenu">
-		<select onchange="resolutionSwitch(this)">
-			<option value="2160p">2160p 60fps</option>
-			<option value="1080p" selected>1080p 60fps</option>
-		</select>
-        </div>
-
-	<video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/22_7_1.jpg" controls preload="none">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/22%EF%BC%8F7%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/22%EF%BC%8F7%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。
-	</video>
-
-	<!--
-	<button class="accordion">下载链接</button>
-	<div class="panel">
-		<p><a href=""></a></p>
-	</div>
-	-->
-
-	<button class="accordion">版权及来源</button>
-	<div class="panel">
-		<p>&copy;ANIME 22/7</p>
+		<button class="accordion">关于在线播放</button>
+		<div class="panel">
+			<ol>
+				<li><p>请根据网络情况自行选择分辨率播放。默认播放1080p分辨率。</p></li>
+				<li>
+					<p>建议网速：</p>
+					<ul>
+						<li><p>1080p - 10Mbps</p></li>	
+						<li><p>2160p (4K) - 25Mbps</p></li>
+					</ul>	
+				</li>
+				<li><p>部分设备（目前已知所有ios设备）不支持浏览器4K在线播放，在这种情况下即使选择4K也只会播放1080p。 点击<a href="https://storage.googleapis.com/svp-demo/videos/online/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%B6%85%E7%94%B5%E7%A3%81%E7%82%AES%20%5BOP1%5D%5B2160p%5D%5Bx264_aac%5D.mp4">这里</a>测试你的设备是否支持4K播放。</p></li>
+				<li><p>部分视频有使用音轨延迟，如果播放器不支持会导致音轨和视频不同步，遇到这种情况请更换播放器或浏览器。</p></li>
+				<li>
+					<p>Windows浏览器建议：</p>
+					<ul>
+						<li><p>旧版Edge不推荐，不支持音轨延迟。</p></li>	
+						<li><p>新版Chromium Edge同样不推荐，视频播放不流畅，会产生Judder效果。</p></li>
+						<li><p>Chrome推荐。</p></li>
+						<li><p>Firefox推荐。</p></li>
+					</ul>	
+				</li>
+				<li><p>在线播放的视频均为低码率高压缩版，如果需要高质量版请展开“下载链接”菜单下载。</p></li>
+			</ol>
+		</div>
+		
 		<br />
-  		<p>「ムズイ」</p>
-		<p>作詞 - 秋元康 / 作曲・編曲 - 後藤康二 / 歌 - 22/7</p>
+	
+		<button class="accordion">关于下载</button>
+		<div class="panel">
+			<ol>
+				<li><p>高质量下载版色彩精度为10bit，请仔细配置播放器以获得最佳体验。</p></li>
+				<li><p>新番源均为WebRip，故没有高质量版本提供下载。</p></li>
+			</ol>
+		</div>
+				
 		<br />
-		<p>感谢喵萌奶茶屋提供的字幕</p>
+		
+		<button class="accordion">关于视频源的选择</button>
+		<div class="panel">
+			<ol>
+				<li><p>新番源均为WebRip，有蓝光源放流的就会根据情况选择BDMV或BDRip。</p></li>
+				<li><p>关于NC OP/ED：首先新番肯定不会有NC版的。其次如果credit对补帧效果影响不大我们会选择保留credit，如果credit对画面平衡有帮助我们也会保留credit。</p></li>
+				<li><p>至于BD放流后已经做过WebRip的番会不会重做，就要随缘了~</p></li>
+			</ol>
+		</div>
 	</div>
-
-	<button class="accordion">一些废话</button>
-	<div class="panel">
-		<p>秋元康 + 宫岛礼吏 + A1 = 你不知道会搞出什么事</p>
-	</div>
-</div>
 	
-	
-<!--////////////////////////////////////////////////////////中二病 [OP1]////////////////////////////////////////////////////////-->
-<div class="VideoFrame">
-	<h1 align="center">Sparkling Daydream</h1>
-	<h3 align="center">中二病也想谈恋爱！ [OP1]</h3>
-	<br />
-	<p class="date">Feb. 16, 2020</p>
-	<br />
-	<hr>
-	<br />
-	
-        <div class="selectMenu">
-		<select onchange="resolutionSwitch(this)">
-			<option value="2160p">2160p 60fps</option>
-			<option value="1080p" selected>1080p 60fps</option>
-		</select>
-        </div>
+	<div id="initiator"></div>
 
-	<video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/chuunibyou_1.jpg" controls preload="none">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E4%B8%AD%E4%BA%8C%E7%97%85%E4%B9%9F%E6%83%B3%E8%B0%88%E6%81%8B%E7%88%B1%EF%BC%81%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E4%B8%AD%E4%BA%8C%E7%97%85%E4%B9%9F%E6%83%B3%E8%B0%88%E6%81%8B%E7%88%B1%EF%BC%81%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。
-	</video>
-
-	<button class="accordion">下载链接</button>
-	<div class="panel">
-		<p><a href="https://storage.googleapis.com/svp-demo/videos/download/%E4%B8%AD%E4%BA%8C%E7%97%85%E4%B9%9F%E6%83%B3%E8%B0%88%E6%81%8B%E7%88%B1%EF%BC%81%20%5BOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv">中二病也想谈恋爱！ [OP1][Ma10p_2160p][x265_flac].mkv</a></p>
-	</div>
-
-	<button class="accordion">版权及来源</button>
-	<div class="panel">
-		<p>&copy;虎虎/京都アニメーション/中二病でも製作委員会</p>
-		<br />
-  		<p>「Sparkling Daydream」</p>
-		<p>作詞・作曲・編曲・歌 - ZAQ</p>
-		<br />
-		<p>感谢澄空学园提供的字幕</p>
-	</div>
-
-	<button class="accordion">一些废话</button>
-	<div class="panel">
-		<p>本身画质很不错，并且噪点丰富，没有做过多处理，所以相比于其他视频用了更高的码率来保留细节，如果网速不够可能会卡 :)</p>
-		<p><img style="max-width:288px;width:100%;" src="https://storage.googleapis.com/svp-demo/images/other/chuunibyou_1.gif" alt="chuunibyou_comment"></p>
-	</div>
-</div>
-	
-	
-<!--////////////////////////////////////////////////////////喷火少女 [OP]////////////////////////////////////////////////////////-->
-<div class="VideoFrame">
-	<h1 align="center">火炎放射器とわたし</h1>
-	<h3 align="center">青春！喷火少女 [OP] - 出自 虚构推理</h3>
-	<br />
-	<p class="date">Feb. 16, 2020</p>
-	<br />
-	<hr>
-	<br />
-	
-        <div class="selectMenu">
-		<select onchange="resolutionSwitch(this)">
-			<option value="2160p" disabled>2160p 60fps</option>
-			<option value="1080p" selected>1080p 60fps</option>
-		</select>
-        </div>
-
-	<video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/hifuki.jpg" controls preload="none">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E9%9D%92%E6%98%A5%EF%BC%81%E5%96%B7%E7%81%AB%E5%B0%91%E5%A5%B3%20%5BOP%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E9%9D%92%E6%98%A5%EF%BC%81%E5%96%B7%E7%81%AB%E5%B0%91%E5%A5%B3%20%5BOP%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。
-	</video>
-
-	<!--
-	<button class="accordion">下载链接</button>
-	<div class="panel">
-		<p><a href=""></a></p>
-	</div>
-	-->
-
-	<button class="accordion">版权及来源</button>
-	<div class="panel">
-		<p>&copy;城平京・片瀬茶柴・講談社 / 虚構推理製作委員会</p>
-		<br />
-  		<p>「火炎放射器とわたし」</p>
-		<p>作詞 - 桑原永江・片瀬茶紫 / 作曲・編曲 - 渡部チェル / 歌 - 七瀬かりん（CV:上坂すみれ）</p>
-	</div>
-
-	<button class="accordion">一些废话</button>
-	<div class="panel">
-		<p>xswl居然真的做出了一个OP，看起来好沙雕哦 &#128514;</p>
-	</div>
-</div>
-
-	
-<!--////////////////////////////////////////////////////////Shelter////////////////////////////////////////////////////////-->
-<div class="VideoFrame">
-	<h1 align="center">Shelter</h1>
-	<br />
-	<p class="date">Feb. 13, 2020</p>
-	<br />
-	<hr>
-	<br />
-	
-        <div class="selectMenu">
-		<select onchange="resolutionSwitch(this)">
-			<option value="2160p">2160p 60fps</option>
-			<option value="1080p" selected>1080p 60fps</option>
-		</select>
-        </div>
-
-	<video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/shelter.jpg" controls preload="none">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/Shelter%20%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/Shelter%20%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。
-	</video>
-
-	<button class="accordion">下载链接</button>
-	<div class="panel">
-		<p><a href="https://storage.googleapis.com/svp-demo/videos/download/Shelter%20%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv">Shelter [Ma10p_2160p][x265_flac].mkv</a></p>
-	</div>
-
-	<button class="accordion">版权及来源</button>
-	<div class="panel">
-		<p>&copy;2017 Sony Music Labels Inc.</p>
-		<br />
-  		<p>「Shelter」</p>
-		<p>A song by by Porter Robinson & Madeon</p>
-		<br />
-		<p>感谢SweetSub&LoliHouse提供的字幕</p>
-	</div>
-
-	<button class="accordion">一些废话</button>
-	<div class="panel">
-		<p>这神曲就不用多说什么了吧，能给人看哭的MV没几个。A1画质巅峰就是Shelter了。</p>
-	</div>
-</div>
-	
-	
-<!--////////////////////////////////////////////////////////SAO II [OP1]////////////////////////////////////////////////////////-->
-<div class="VideoFrame">
-	<h1 align="center">IGNITE</h1>
-	<h3 align="center">刀剑神域 第二季 [OP1]</h3>
-	<br />
-	<p class="date">Feb. 06, 2020</p>
-	<br />
-	<hr>
-	<br />
-	
-        <div class="selectMenu">
-		<select onchange="resolutionSwitch(this)">
-			<option value="2160p">2160p 60fps</option>
-			<option value="1080p" selected>1080p 60fps</option>
-		</select>
-        </div>
-
-	<video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/saoii_1.jpg" controls preload="none">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9FII%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9FII%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。
-	</video>
-
-	<button class="accordion">下载链接</button>
-	<div class="panel">
-		<p><a href="https://storage.googleapis.com/svp-demo/videos/download/%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9FII%20%5BOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv">刀剑神域II [OP1][Ma10p_2160p][x265_flac].mkv</a></p>
-	</div>
-
-	<button class="accordion">版权及来源</button>
-	<div class="panel">
-		<p>&copy; 2014 川原 礫/KADOKAWA アスキー・メディアワークス/SAOII Project</p>
-		<br />
-  		<p>「IGNITE」</p>
-		<p>作詞 - Eir、小川智之 / 作曲 - 小川智之 / 編曲 - Saku / 歌 - 藍井エイル</p>
-		<br />
-		<p>感谢动漫国字幕组提供的字幕</p>
-	</div>
-
-	<button class="accordion">一些废话</button>
-	<div class="panel">
-		<p>刀剑二被下架的直接原因 &#128579;</p>
-		<p>这个OP是A1的一贯风格，流畅度高的时候很高，低的时候也很低，所以补帧还是比较困难的。</p>
-		<p>这也算是本传里面我最喜欢的OP了（没错我更喜欢外传OP ：）</p>
-	</div>
-</div>
-	
-
-<!--////////////////////////////////////////////////////////ID INVADED [OP1]////////////////////////////////////////////////////////-->
-<div class="VideoFrame">
-	<h1 align="center">ミスターフィクサー</h1>
-	<h3 align="center">ID INVADED [OP1]</h3>
-	<br />
-	<p class="date">Feb. 02, 2020</p>
-	<br />
-	<hr>
-	<br />
-	
-        <div class="selectMenu">
-		<select onchange="resolutionSwitch(this)">
-			<option value="2160p">2160p 60fps</option>
-			<option value="1080p" selected>1080p 60fps</option>
-		</select>
-        </div>
-
-	<video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/id_invaded_1.jpg" controls preload="none">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/ID%20INVADED%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/ID%20INVADED%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		此浏览器不支持在线视频播放，请更换浏览器或播放设备播放。
-	</video>
-
-	<!--
-	<button class="accordion">下载链接</button>
-	<div class="panel">
-		<p><a href=""></a></p>
-	</div>
-	-->
-
-	<button class="accordion">版权及来源</button>
-	<div class="panel">
-		<p>&copy;IDDU/ID:INVADED Society</p>
-		<br />
-  		<p>「ミスターフィクサー」</p>
-		<p>作詞 - Sou，RUCCA / 曲・編曲 - 神谷志龍 / 歌 - Sou</p>
-		<br />
-		<p>感谢SweetSub提供的字幕</p>
-	</div>
-
-	<button class="accordion">一些废话</button>
-	<div class="panel">
-		<p>新番超神OP。这个OP风格本身就很适合60fps化，效果很好。</p>
-		<p>顺便安利一波，这番脑洞真的大，推荐一看。</p>
-	</div>
-</div>
-	
-	
-<!--////////////////////////////////////////////////////////某科学的超电磁炮S [OP1]////////////////////////////////////////////////////////-->
-<div class="VideoFrame">
-	<h1 align="center">sister's noise</h1>
-	<h3 align="center">某科学的超电磁炮S [OP1]</h3>
-	<br />
-	<p class="date">Jan. 30, 2020</p>
-	<br />
-	<hr>
-	<br />
-
-        <div class="selectMenu">
-		<select onchange="resolutionSwitch(this)">
-			<option value="2160p">2160p 60fps</option>
-			<option value="1080p" selected>1080p 60fps</option>
-		</select>
-        </div>
-
-	<video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/railgun_s_1.jpg" controls preload="none">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%B6%85%E7%94%B5%E7%A3%81%E7%82%AES%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		<source src="https://storage.googleapis.com/svp-demo/videos/online/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%B6%85%E7%94%B5%E7%A3%81%E7%82%AES%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4" type="video/mp4">
-		此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。
-	</video>
-
-	<button class="accordion">下载链接</button>
-	<div class="panel">
-		<p><a href="https://storage.googleapis.com/svp-demo/videos/download/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%B6%85%E7%94%B5%E7%A3%81%E7%82%AES%20%5BOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv">某科学的超电磁炮S [OP1][Ma10p_2160p][x265_flac].mkv</a></p>
-	</div>
-
-	<button class="accordion">版权及来源</button>
-	<div class="panel">
-		<p>&copy;鎌池和馬/冬川 基/アスキー・メディアワークス/PROJECT-RAILGUN S</p>
-		<br />
-  		<p>「sister's noise」</p>
-		<p>作詞・作曲・編曲 - 八木沼悟志 / 歌 - fripSide</p>
-		<br />
-		<p>感谢澄空学园&华盟字幕社提供的字幕</p>
-	</div>
-
-	<button class="accordion">一些废话</button>
-	<div class="panel">
-		<p>经典模范OP，一切60fps都是从这里开始的。</p>
-	</div>
-</div>
-
-
-<script>
-	dropdown();
-</script>
+	<script>dropdown();</script>
 
 </body>
 </html>

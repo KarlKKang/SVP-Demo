@@ -36,6 +36,17 @@ video{
   width: 100%;
 }
 
+select {
+  margin: 10px 0px;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  border: none;
+  border-radius: 0px;
+  height: 34px;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -67,18 +78,4 @@ video{
 .date {
   text-align: center;
   color: rgb(100,100,100);
-}
-
-
-
-
-select {
-  margin: 10px 0px;
-  width: 150px;
-  padding: 5px 35px 5px 5px;
-  border: none;
-  border-radius: 0px;
-  height: 34px;
-  background: transparent;
-  background-color: rgba(255, 255, 255, 0.25);
 }

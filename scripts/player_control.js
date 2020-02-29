@@ -1,13 +1,13 @@
 function resolutionSwitch (dropdown) {
   var resolution = dropdown.options[dropdown.selectedIndex].value;
-  var video = dropdown.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0];
-  var videoDirectory = video.src;
-  var newVideoDirectory;
+  var videoSource = dropdown.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0];
+  var videoSourceDirectory = videoSource.src;
+  var newVideoSourceDirectory;
 
-  newVideoDirectory = generateNewDirectory (videoDirectory, resolution);
-  video.setAttribute("src", newVideoDirectory);
+  newVideoSourceDirectory = generateNewDirectory (videoSourceDirectory, resolution);
+  videoSource.setAttribute("src", newVideoSourceDirectory);
 
-  video.parentNode.load();
+  videoSource.parentNode.load();
 }
 
 
