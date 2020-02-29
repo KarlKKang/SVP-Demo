@@ -1,50 +1,50 @@
 @font-face {
   font-family: Arial;
-  src: url("../fonts/en/Arial.ttf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/en/Arial.ttf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Arial;
-  src: url("../fonts/en/Arial Bold.ttf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/en/Arial%20Bold.ttf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: Arial;
-  src: url("../fonts/en/Arial Italic.ttf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/en/Arial%20Italic.ttf");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: Arial;
-  src: url("../fonts/en/Arial Bold Italic.ttf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/en/Arial%20Bold%20Italic.ttf");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: Source Han Sans CN;
-  src: url("../fonts/zh/思源黑体 CN Medium.otf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/zh/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93%20CN%20Medium.otf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Source Han Sans CN;
-  src: url("../fonts/zh/思源黑体 CN Bold 2.001.otf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/zh/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93%20CN%20Bold%202.001.otf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: Source Han Sans JP;
-  src: url("../fonts/ja/Source Han Sans JP Medium.otf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/ja/Source%20Han%20Sans%20JP%20Medium.otf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Source Han Sans JP;
-  src: url("../fonts/ja/Source Han Sans JP Bold 2.001.otf");
+  src: url("https://storage.googleapis.com/svp-demo/fonts/ja/Source%20Han%20Sans%20JP%20Bold%202.001.otf");
   font-weight: bold;
 }
 
