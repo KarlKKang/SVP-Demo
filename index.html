@@ -23,7 +23,7 @@
 </head> 
 
 
-<body id="mainBody" text="#000000" link="#1069c9" vlink="#1069c9" alink="#1069c9" onresize="updateBackground()" onload="initialize ()"> 
+<body id="mainBody" text="#000000" link="#1069c9" vlink="#1069c9" alink="#1069c9" onresize="updateBackground()"> 
 	
 	
 	<div class="VideoFrame">
@@ -106,7 +106,10 @@
 	
 	<div id="initiator"></div>
 
-	<script>dropdown();</script>
+	<script>
+		initialize ();
+		dropdown();
+	</script>
 
 </body>
 </html>
