@@ -4,10 +4,10 @@ function updateBackground() {
     document.getElementById("mainBody").style.background = "#323232";
   }
   else if (ratio>4/3) {
-    document.getElementById("mainBody").style.background = "url(\"https://storage.googleapis.com/svp-demo/images/DP_0011_veED_009_1620x2160.png\") no-repeat center center";
+    document.getElementById("mainBody").style.background = "url(https://storage.googleapis.com/svp-demo/images/DP_0011_veED_009_1620x2160.png) no-repeat center center";
   }
   else {
-    document.getElementById("mainBody").style.background = "url(\"https://storage.googleapis.com/svp-demo/images/DP_0011_veED_009_3840x2160.jpg\") no-repeat center center";
+    document.getElementById("mainBody").style.background = "url(https://storage.googleapis.com/svp-demo/images/DP_0011_veED_009_3840x2160.jpg) no-repeat center center";
   }
   document.getElementById("mainBody").style.backgroundAttachment = "fixed";
   document.getElementById("mainBody").style.backgroundSize = "cover";
