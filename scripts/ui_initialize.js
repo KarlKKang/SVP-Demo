@@ -1,6 +1,6 @@
 function initializeElements () {
-	for (var i = title.length-1; i >=0; i--){
-		createVideoContainer (title[i], subtitle[i], date[i], is4K[i], thumbnail[i], filePath[i], dFilePath[i], dFileName[i], creditSegment[i], commentSegment[i]);
+	for (var i = titleList.length-1; i >=0; i--){
+		createVideoContainer (titleList[i], subtitleList[i], dateList[i], is4KList[i], thumbnailList[i], filePathList[i], dFilePathList[i], dFileNameList[i], creditSegmentList[i], commentSegmentList[i]);
 	}
 }
 
