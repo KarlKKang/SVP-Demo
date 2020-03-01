@@ -38,5 +38,5 @@ function mobileCheck() {
 window.addEventListener('load', function () {
     setTimeout(function () {
         $("#loadingScreen").fadeOut(500);
-    }, 1500)
+    }, 3000)
 })
