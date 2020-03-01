@@ -202,7 +202,7 @@ function initializeList () {
                     dFilePath: 
                         '', 
                     dFileName: 
-                        '点击下载', 
+                        '', 
                     creditSegment: 
                         '<p lang="ja">&copy;城平京・片瀬茶柴・講談社 / 虚構推理製作委員会</p>\
                         <br />\

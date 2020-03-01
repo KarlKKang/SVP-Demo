@@ -1,22 +1,32 @@
 function createVideoContainer (title, subtitle, date, is4K, thumbnail, filePath, dFilePath, dFileName, creditSegment, commentSegment) {
 	var subtitleSegment;
-	var disabled;
-	var downloadSegment;
+	var option4KAvailable;
+    var downloadAccordionClass;
+    var creditAccordionClass;
+    var commentAccordionClass;
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (is4K) {
-		disabled = '';
+		option4KAvailable = '';
 	} else {
-		disabled = 'disabled';
+		option4KAvailable = 'disabled';
 	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (dFilePath=='none'||dFilePath=='') {
-		downloadSegment = '';
+		downloadAccordionClass = 'accordionDisabled';
 	} else {
-		downloadSegment = 
-			'<button class="accordion">下载链接</button>\
-			<div class="panel">\
-				<p><a href="https://storage.googleapis.com/svp-demo/videos/download/' + dFilePath + '">' + dFileName + '</a></p>\
-			</div>';
+        downloadAccordionClass = 'accordion';
+	}
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	if (creditSegment=='none'||creditSegment=='') {
+		creditAccordionClass = 'accordionDisabled';
+	} else {
+        creditAccordionClass = 'accordion';
+	}
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	if (commentSegment=='none'||commentSegment=='') {
+		commentAccordionClass = 'accordionDisabled';
+	} else {
+        commentAccordionClass = 'accordion';
 	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (subtitle=='none'||subtitle=='') {
@@ -37,7 +47,7 @@ function createVideoContainer (title, subtitle, date, is4K, thumbnail, filePath,
 			<br />\
 			<div class="selectMenu">\
 				<select onchange="resolutionSwitch(this)">\
-					<option value="2160p"' + disabled + '>2160p 60fps</option>\
+					<option value="2160p"' + option4KAvailable + '>2160p 60fps</option>\
 					<option value="1080p" selected>1080p 60fps</option>\
 				</select>\
 			</div>\
@@ -47,13 +57,16 @@ function createVideoContainer (title, subtitle, date, is4K, thumbnail, filePath,
                     <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
                     此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。\
                 </video>\
-            </div>' + 
-			downloadSegment +
-			'<button class="accordion">版权及来源</button>\
+            </div>\
+			<button class="' + downloadAccordionClass + '">下载链接</button>\
+			<div class="panel">\
+				<p><a href="https://storage.googleapis.com/svp-demo/videos/download/' + dFilePath + '">' + dFileName + '</a></p>\
+			</div>\
+			<button class="' + creditAccordionClass + '">版权及来源</button>\
 			<div class="panel">'+
 				creditSegment +
 			'</div>\
-			<button class="accordion">一些废话</button>\
+			<button class="' + commentAccordionClass + '">一些废话</button>\
 			<div class="panel">' +
 				commentSegment +
 			'</div>\

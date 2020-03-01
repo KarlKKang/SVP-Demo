@@ -99,6 +99,22 @@ select {
 }
 
 /*////////////////////////////////////////////////////////Accordion////////////////////////////////////////////////////////*/
+.accordionDisabled {
+    display: block;
+    float: left;
+    margin: 0px;
+    background-color: #eee;
+    color: rgb(160, 160, 160);
+    cursor: default;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    font-size: medium;
+}
+
 .accordion {
     display: block;
     float: left;
