@@ -41,14 +41,18 @@
     font-style: italic;
 }
 
+* {
+    font-family:  "Source Han Sans CN", "Source Han Sans JP", "Arial";
+}
+:lang(ja){
+    font-family:  "Source Han Sans JP", "Arial" !important;
+}
+
 a {
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
-}
-* {
-    font-family: "Source Han Sans JP", "Source Han Sans CN", "Arial" !important;
 }
 
 body {

@@ -62,10 +62,10 @@ function initializeList () {
 		'魔法少女小圆 [NCOP1][Ma10p_2160p][x265_flac].mkv'
 	);
 	creditSegment.push(
-		'<p>&copy; MagicaQuartet / Aniplex・MadokaPartners・MBS</p>\
+		'<p lang="ja">&copy; MagicaQuartet / Aniplex・MadokaPartners・MBS</p>\
 		<br />\
-  		<p>「コネクト」</p>\
-		<p>作詞・作曲 - 渡辺翔 / 編曲 - 湯浅篤 / 歌 - ClariS</p>\
+  		<p lang="ja">「コネクト」</p>\
+		<p lang="ja">作詞・作曲 - 渡辺翔 / 編曲 - 湯浅篤 / 歌 - ClariS</p>\
 		<br />\
 		<p>感谢澄空学园提供的字幕</p>'
 	);
@@ -101,10 +101,10 @@ function initializeList () {
 		'none'
 	);
 	creditSegment.push(
-		'<p>&copy;2020 夕蜜柑・狐印 / KADOKAWA / 防振り製作委員会</p>\
+		'<p lang="ja">&copy;2020 夕蜜柑・狐印 / KADOKAWA / 防振り製作委員会</p>\
 		<br />\
-		<p>「究極アンバランス！」</p>\
-		<p>作詞・作曲 - 志倉千代丸 / 編曲 - 悠木真一 / 歌 - 純情のアフィリア</p>\
+		<p lang="ja">「究極アンバランス！」</p>\
+		<p lang="ja">作詞・作曲 - 志倉千代丸 / 編曲 - 悠木真一 / 歌 - 純情のアフィリア</p>\
 		<br />\
 		<p>感谢爱咕字幕组提供的字幕</p>');
 	commentSegment.push(
@@ -139,10 +139,10 @@ function initializeList () {
 		'鬼灭之刃 [NCOP1][Ma10p_2160p][x265_flac].mkv'
 	);
 	creditSegment.push(
-		'<p>&copy;吾峠呼世晴 / 集英社・アニプレックス・ufotable</p>\
+		'<p lang="ja">&copy;吾峠呼世晴 / 集英社・アニプレックス・ufotable</p>\
 		<br />\
-  		<p>「紅蓮華」</p>\
-		<p>作詞 - LiSA / 作曲 - 草野華余子 / 編曲 - 江口亮 / 歌 - LiSA</p>\
+  		<p lang="ja">「紅蓮華」</p>\
+		<p lang="ja">作詞 - LiSA / 作曲 - 草野華余子 / 編曲 - 江口亮 / 歌 - LiSA</p>\
 		<br />\
 		<p>感谢豌豆字幕组&amp;风之圣殿字幕组提供的字幕</p>'
 	);
@@ -179,10 +179,10 @@ function initializeList () {
 		'none'
 	);
 	creditSegment.push(
-		'<p>&copy;ANIME 22/7</p>\
+		'<p lang="ja">&copy;ANIME 22/7</p>\
 		<br />\
-  		<p>「ムズイ」</p>\
-		<p>作詞 - 秋元康 / 作曲・編曲 - 後藤康二 / 歌 - 22/7</p>\
+  		<p lang="ja">「ムズイ」</p>\
+		<p lang="ja">作詞 - 秋元康 / 作曲・編曲 - 後藤康二 / 歌 - 22/7</p>\
 		<br />\
 		<p>感谢喵萌奶茶屋提供的字幕</p>'
 	);
@@ -218,10 +218,10 @@ function initializeList () {
 		'中二病也想谈恋爱！ [OP1][Ma10p_2160p][x265_flac].mkv'
 	);
 	creditSegment.push(
-		'<p>&copy;虎虎/京都アニメーション/中二病でも製作委員会</p>\
+		'<p lang="ja">&copy;虎虎/京都アニメーション/中二病でも製作委員会</p>\
 		<br />\
-  		<p>「Sparkling Daydream」</p>\
-		<p>作詞・作曲・編曲・歌 - ZAQ</p>\
+  		<p lang="ja">「Sparkling Daydream」</p>\
+		<p lang="ja">作詞・作曲・編曲・歌 - ZAQ</p>\
 		<br />\
 		<p>感谢澄空学园提供的字幕</p>'
 	);
@@ -258,10 +258,10 @@ function initializeList () {
 		'none'
 	);
 	creditSegment.push(
-		'<p>&copy;城平京・片瀬茶柴・講談社 / 虚構推理製作委員会</p>\
+		'<p lang="ja">&copy;城平京・片瀬茶柴・講談社 / 虚構推理製作委員会</p>\
 		<br />\
-  		<p>「火炎放射器とわたし」</p>\
-		<p>作詞 - 桑原永江・片瀬茶紫 / 作曲・編曲 - 渡部チェル / 歌 - 七瀬かりん（CV:上坂すみれ）</p>'
+  		<p lang="ja">「火炎放射器とわたし」</p>\
+		<p lang="ja">作詞 - 桑原永江・片瀬茶紫 / 作曲・編曲 - 渡部チェル / 歌 - 七瀬かりん（CV:上坂すみれ）</p>'
 	);
 	commentSegment.push(
 		'<p>xswl居然真的做出了一个OP，看起来好沙雕哦 &#128514;</p>'
@@ -295,10 +295,10 @@ function initializeList () {
 		'Shelter [Ma10p_2160p][x265_flac].mkv'
 	);
 	creditSegment.push(
-		'<p>&copy;2017 Sony Music Labels Inc.</p>\
+		'<p lang="ja">&copy;2017 Sony Music Labels Inc.</p>\
 		<br />\
-  		<p>「Shelter」</p>\
-		<p>A song by by Porter Robinson &amp; Madeon</p>\
+  		<p lang="ja">「Shelter」</p>\
+		<p lang="ja">A song by by Porter Robinson &amp; Madeon</p>\
 		<br />\
 		<p>感谢SweetSub&amp;LoliHouse提供的字幕</p>'
 	);
@@ -334,10 +334,10 @@ function initializeList () {
 		'刀剑神域II [OP1][Ma10p_2160p][x265_flac].mkv'
 	);
 	creditSegment.push(
-		'<p>&copy; 2014 川原 礫/KADOKAWA アスキー・メディアワークス/SAOII Project</p>\
+		'<p lang="ja">&copy; 2014 川原 礫/KADOKAWA アスキー・メディアワークス/SAOII Project</p>\
 		<br />\
-  		<p>「IGNITE」</p>\
-		<p>作詞 - Eir、小川智之 / 作曲 - 小川智之 / 編曲 - Saku / 歌 - 藍井エイル</p>\
+  		<p lang="ja">「IGNITE」</p>\
+		<p lang="ja">作詞 - Eir、小川智之 / 作曲 - 小川智之 / 編曲 - Saku / 歌 - 藍井エイル</p>\
 		<br />\
 		<p>感谢动漫国字幕组提供的字幕</p>'
 	);
@@ -375,10 +375,10 @@ function initializeList () {
 		'none'
 	);
 	creditSegment.push(
-		'<p>&copy;IDDU/ID:INVADED Society</p>\
+		'<p lang="ja">&copy;IDDU/ID:INVADED Society</p>\
 		<br />\
-  		<p>「ミスターフィクサー」</p>\
-		<p>作詞 - Sou，RUCCA / 曲・編曲 - 神谷志龍 / 歌 - Sou</p>\
+  		<p lang="ja">「ミスターフィクサー」</p>\
+		<p lang="ja">作詞 - Sou，RUCCA / 曲・編曲 - 神谷志龍 / 歌 - Sou</p>\
 		<br />\
 		<p>感谢SweetSub提供的字幕</p>'
 	);
@@ -415,10 +415,10 @@ function initializeList () {
 		'某科学的超电磁炮S [OP1][Ma10p_2160p][x265_flac].mkv'
 	);
 	creditSegment.push(
-		'<p>&copy;鎌池和馬/冬川 基/アスキー・メディアワークス/PROJECT-RAILGUN S</p>\
+		'<p lang="ja">&copy;鎌池和馬/冬川 基/アスキー・メディアワークス/PROJECT-RAILGUN S</p>\
 		<br />\
-  		<p>「sister\'s noise」</p>\
-		<p>作詞・作曲・編曲 - 八木沼悟志 / 歌 - fripSide</p>\
+  		<p lang="ja">「sister\'s noise」</p>\
+		<p lang="ja">作詞・作曲・編曲 - 八木沼悟志 / 歌 - fripSide</p>\
 		<br />\
 		<p>感谢澄空学园&amp;华盟字幕社提供的字幕</p>'
 	);

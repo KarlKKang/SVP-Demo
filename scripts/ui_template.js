@@ -28,7 +28,7 @@ function createVideoContainer (title, subtitle, date, is4K, thumbnail, filePath,
 	
 	var element = 
 		'<div class="VideoFrame">\
-			<h1 align="center">' + title + '</h1>' +
+			<h1 align="center" lang="ja">' + title + '</h1>' +
 			subtitleSegment + 
 			'<br />\
 			<p class="date">' + date + '</p>\
