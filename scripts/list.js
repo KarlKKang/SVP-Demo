@@ -1,16 +1,7 @@
-var titleList = [];
-var subtitleList = [];
-var dateList = [];
-var is4KList = [];
-var thumbnailList = [];
-var filePathList = [];
-var dFilePathList = [];
-var dFileNameList = [];
-var creditSegmentList = [];
-var commentSegmentList = [];
+var videoList = [];
 
 function appendList (param) {
-    var index = titleList.length;
+    var index = videoList.length;
     
     if (typeof param.title === 'undefined'){
         alert('\'title\' element for index ' + index + ' must be defined!');
@@ -29,12 +20,16 @@ function appendList (param) {
         param.is4K = false;
     }
     if (typeof param.thumbnail === 'undefined'){
-        alert('\'thumbnail\' element for index ' + index + ' must be defined!');
+        console.log('Element \'thumbnail\' is undefined for index ' + index + '. Assuming empty.');
         param.thumbnail = '';
     }
     if (typeof param.filePath === 'undefined'){
-        alert('\'filePath\' element for index ' + index + ' must be defined!');
+        console.log('Element \'filePath\' is undefined for index ' + index + '. Assuming empty.');
         param.filePath = '';
+    }
+    if (typeof param.alt === 'undefined'){
+        console.log('Element \'alt\' is undefined for index ' + index + '. Assuming empty.');
+        param.alt = '';
     }
     if (typeof param.dFilePath === 'undefined'){
         console.log('Element \'dFilePath\' is undefined for index ' + index + '. Assuming empty.');
@@ -44,30 +39,36 @@ function appendList (param) {
         console.log('Element \'dFilePath\' is undefined for index ' + index + '. Assuming empty.');
         param.dFileName = '';
     }
-    if (typeof param.creditSegment === 'undefined'){
+    if (typeof param.credit === 'undefined'){
         console.log('Element \'creditSegment\' is undefined for index ' + index + '. Assuming empty.');
         param.creditSegment = '';
     }
-    if (typeof param.commentSegment === 'undefined'){
+    if (typeof param.comment === 'undefined'){
         console.log('Element \'commentSegment\' is undefined for index ' + index + '. Assuming empty.');
         param.commentSegment = '';
     }
     
-    if ((param.dFilePath == '' || param.dFilePath == 'none')&&(param.dFileName != '' && param.dFileName != 'none')){
-        alert('Element \'dFileName\' is undefined for index ' + index + ' but element \'dFilePath\' is undefined.');
+    if ((param.dFilePath == '' || param.dFilePath == 'none') && (param.dFileName != '' && param.dFileName != 'none')){
+        alert('Element \'dFileName\' is defined for index ' + index + ' but element \'dFilePath\' is undefined.');
     } else if ((param.dFileName == '' || param.dFileName == 'none')&&(param.dFilePath != '' && param.dFilePath != 'none')) {
-        alert('Element \'dFilePath\' is undefined for index ' + index + ' but element \'dFileName\' is undefined.');
+        alert('Element \'dFilePath\' is defined for index ' + index + ' but element \'dFileName\' is undefined.');
     }
     
+    if ((param.filePath == '' || param.filePath == 'none') && (param.thumbnail !='' && param.thumbnail !='none')){
+        alert('Element \'thumbnail\' is defined for index ' + index + ' but element \'filePath\' is undefined.');
+    }
     
-    titleList.push(param.title);
-	subtitleList.push(param.subtitle);
-	dateList.push(param.date);
-	is4KList.push(param.is4K);
-	thumbnailList.push(param.thumbnail);
-	filePathList.push(param.filePath);
-	dFilePathList.push(param.dFilePath);
-	dFileNameList.push(param.dFileName);
-	creditSegmentList.push(param.creditSegment);
-	commentSegmentList.push(param.commentSegment);
+    if (param.filePath == '' || param.filePath == 'none'){
+        if (param.alt =='' || param.alt =='none'){
+            console.log('Elements \'filePath\' and \'alt\' are both undefined for index ' + index + '. Using default value for \'alt\'.');
+            param.alt = '<p align="center">Video currently unavailable.</p>';
+        }
+    } else{
+        if (param.alt !='' && param.alt !='none'){
+            console.log('Elements \'filePath\' and \'alt\' are both defined for index ' + index + '. Revert \'alt\' to empty.');
+            param.alt = '';
+        }
+    }
+    
+    videoList.push(param);
 }
