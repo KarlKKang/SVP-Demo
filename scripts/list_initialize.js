@@ -1,4 +1,33 @@
 function initializeList () {
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    appendList ({
+                    title: 
+                        'Magia', 
+                    subtitle: 
+                        '魔法少女小圆 [ED2]', 
+                    date: 
+                        'Mar. 05, 2020', 
+                    is4K: 
+                        true, 
+                    thumbnail: 
+                        'magica_2.jpg', 
+                    filePath: 
+                        '%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%20%5BED2%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
+                    dFilePath: 
+                        '%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%20%5BED2%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    dFileName: 
+                        '魔法少女小圆 [ED2][Ma10p_2160p][x265_flac].mkv', 
+                    credit: 
+                        '<p lang="ja">&copy; MagicaQuartet / Aniplex・MadokaPartners・MBS</p>\
+                        <br />\
+                        <p lang="ja">「Magia」</p>\
+                        <p lang="ja">作詞・作曲・編曲 - 梶浦由記 / 歌 - Kalafina</p>\
+                        <br />\
+                        <p>感谢澄空学园提供的字幕</p>', 
+                    comment: 
+                        '<p>这ED才是诡异咧~ 断头之后这ED的冲击感，<strike>再加上这意文</strike>，感觉就出来了有没有~</p>\
+                        <p>（深深感觉到了这个ED对于420 chroma subsampling的恶意）</p>'
+    });
     
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     appendList ({
