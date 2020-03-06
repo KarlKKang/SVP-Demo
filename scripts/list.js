@@ -40,12 +40,12 @@ function appendList (param) {
         param.dFileName = '';
     }
     if (typeof param.credit === 'undefined'){
-        console.log('Element \'creditSegment\' is undefined for index ' + index + '. Assuming empty.');
-        param.creditSegment = '';
+        console.log('Element \'credit\' is undefined for index ' + index + '. Assuming empty.');
+        param.credit = '';
     }
     if (typeof param.comment === 'undefined'){
-        console.log('Element \'commentSegment\' is undefined for index ' + index + '. Assuming empty.');
-        param.commentSegment = '';
+        console.log('Element \'comment\' is undefined for index ' + index + '. Assuming empty.');
+        param.comment = '';
     }
     
     if ((param.dFilePath == '' || param.dFilePath == 'none') && (param.dFileName != '' && param.dFileName != 'none')){

@@ -5,6 +5,7 @@ function createVideoContainer (param) {
     var downloadAccordionClass;
     var creditAccordionClass;
     var commentAccordionClass;
+    var commentButtonText;
     
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (subtitle=='none'||subtitle=='') {
@@ -52,8 +53,10 @@ function createVideoContainer (param) {
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (comment=='none'||comment=='') {
 		commentAccordionClass = 'accordionDisabled';
+        commentButtonText = "不废话，认真看！";
 	} else {
         commentAccordionClass = 'accordion';
+        commentButtonText = "一些废话";
 	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -75,7 +78,7 @@ function createVideoContainer (param) {
 			<div class="panel">'+
 				credit +
 			'</div>\
-			<button class="' + commentAccordionClass + '">一些废话</button>\
+			<button class="' + commentAccordionClass + '">' + commentButtonText + '</button>\
 			<div class="panel">' +
 				comment +
 			'</div>\
