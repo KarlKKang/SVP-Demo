@@ -95,7 +95,6 @@ function createVideoContainer (param) {
 			<div class="panel">' +
 				comment +
 			'</div>\
-			<br />\
 		</div>';
 	
 	$("#initiator").after(element);
