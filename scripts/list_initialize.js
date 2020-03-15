@@ -29,7 +29,8 @@ function initializeList () {
                         <p>感谢喵萌奶茶屋提供的字幕</p>', 
                     comment: 
                         '<p>到目前为止这番都挺好的啦，只要不搞什么总决选我都OK的~</p>\
-			<p>Flag：BD出了以后会把所有人的Solo ED都做出来~</p>'
+                        <p>V1的补帧参数不适合这个复杂度很高的OP，V2把OP拆分后进行了分片段的补帧。</p>\
+                        <p>Flag：BD出了以后会把所有人的Solo ED都做出来~</p>'
     });
     
     
