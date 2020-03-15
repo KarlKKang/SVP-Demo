@@ -1,5 +1,5 @@
 function createVideoContainer (param) {
-    var title = param.title, subtitle = param.subtitle, date = param.date, is4K = param.is4K, thumbnail = param.thumbnail, filePath = param.filePath, alt = param.alt; dFilePath = param.dFilePath, dFileName = param.dFileName, credit = param.credit, comment = param.comment;
+    var tag = param.tag, title = param.title, subtitle = param.subtitle, date = param.date, is4K = param.is4K, thumbnail = param.thumbnail, filePath = param.filePath, alt = param.alt; dFilePath = param.dFilePath, dFileName = param.dFileName, credit = param.credit, comment = param.comment;
 	var subtitleSegment;
     var videoSegment;
     var downloadAccordionClass;
@@ -7,6 +7,10 @@ function createVideoContainer (param) {
     var commentAccordionClass;
     var commentButtonText;
     
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	if (tag!='none'&&tag!='') {
+		tag = 'id="' + tag + '"';
+	}
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (subtitle=='none'||subtitle=='') {
 		subtitleSegment = '';
@@ -21,7 +25,18 @@ function createVideoContainer (param) {
 	}
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (filePath=='none'||filePath=='') {
-		videoSegment = alt + '<br />';
+        videoSegment = 
+            '<div class="selectMenu">\
+                <select>\
+                    <option selected>Unavailable</option>\
+                </select>\
+            </div>\
+            <div class="video-disabled">\
+                <div class="video-disabled-content">\
+                    <div class="video-disabled-content-overlay"><div class="video-disabled-content-overlay-content">' + alt + '</div></div>\
+                    <img src="https://storage.googleapis.com/svp-demo/images/thumbnails/' + thumbnail + '" style="width:100%;display:block;">\
+                </div>\
+            </div>';
 	} else {
 		videoSegment = 
             '<div class="selectMenu">\
@@ -30,13 +45,11 @@ function createVideoContainer (param) {
 					<option value="1080p" selected>1080p 60fps</option>\
 				</select>\
 			</div>\
-            <div class="video">\
-                <video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/' + thumbnail + '" controls preload="none">\
-                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
-                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
-                    此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。\
-                </video>\
-            </div>'
+            <video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/' + thumbnail + '" controls preload="none">\
+                <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
+                <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
+                此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。\
+            </video>'
 	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (dFilePath=='none'||dFilePath=='') {
@@ -61,7 +74,7 @@ function createVideoContainer (param) {
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	var element = 
-		'<div class="VideoFrame">\
+		'<div class="VideoFrame"' + tag + '>\
 			<h1 align="center" lang="ja">' + title + '</h1>' +
 			subtitleSegment + 
 			'<br />\

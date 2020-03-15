@@ -3,6 +3,10 @@ var videoList = [];
 function appendList (param) {
     var index = videoList.length;
     
+    if (typeof param.tag === 'undefined'){
+        console.log('Element \'tag\' is undefined for index ' + index + '. Assuming empty.');
+        param.tag = '';
+    }
     if (typeof param.title === 'undefined'){
         alert('\'title\' element for index ' + index + ' must be defined!');
         param.title = 'Missing title';
@@ -54,14 +58,13 @@ function appendList (param) {
         alert('Element \'dFilePath\' is defined for index ' + index + ' but element \'dFileName\' is undefined.');
     }
     
-    if ((param.filePath == '' || param.filePath == 'none') && (param.thumbnail !='' && param.thumbnail !='none')){
-        alert('Element \'thumbnail\' is defined for index ' + index + ' but element \'filePath\' is undefined.');
-    }
-    
     if (param.filePath == '' || param.filePath == 'none'){
+        if (param.thumbnail =='' || param.thumbnail =='none'){
+            console.log('Elements \'thumbnail\' and \'filePath\' are both undefined for index ' + index + '.');
+        }
         if (param.alt =='' || param.alt =='none'){
             console.log('Elements \'filePath\' and \'alt\' are both undefined for index ' + index + '. Using default value for \'alt\'.');
-            param.alt = '<p align="center">Video currently unavailable.</p>';
+            param.alt = '<p>Video currently unavailable.</p>';
         }
     } else{
         if (param.alt !='' && param.alt !='none'){
