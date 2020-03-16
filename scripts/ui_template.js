@@ -1,5 +1,5 @@
 function createVideoContainer (param) {
-    var tag = param.tag, title = param.title, subtitle = param.subtitle, date = param.date, is4K = param.is4K, thumbnail = param.thumbnail, filePath = param.filePath, alt = param.alt; dFilePath = param.dFilePath, dFileName = param.dFileName, credit = param.credit, comment = param.comment;
+    var tag = param.tag, title = param.title, subtitle = param.subtitle, date = param.date, is4K = param.is4K, thumbnail = param.thumbnail, filePath = param.filePath, alt = param.alt, dFilePath = param.dFilePath, dFileName = param.dFileName, credit = param.credit, comment = param.comment;
 	var subtitleSegment;
     var videoSegment;
     var downloadAccordionClass;

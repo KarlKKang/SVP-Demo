@@ -1,21 +1,21 @@
 @font-face {
-    font-family: Source Han Sans JP;
-    src: url("../fonts/ja/Source Han Sans JP Medium.otf");
+    font-family: JP;
+    src: url("../fonts/ja/DFGothicPPro6N-W3.otf");
     font-weight: normal;
 }
 @font-face {
-    font-family: Source Han Sans JP;
-    src: url("../fonts/ja/Source Han Sans JP Bold 2.001.otf");
+    font-family: JP;
+    src: url("../fonts/ja/DFGothicPPro6N-W5.otf");
     font-weight: bold;
 }
 @font-face {
-    font-family: Source Han Sans CN;
-    src: url("../fonts/zh/思源黑体 CN Medium.otf");
+    font-family: CN;
+    src: url("../fonts/zh/华康金刚黑A Std Light.otf");
     font-weight: normal;
 }
 @font-face {
-    font-family: Source Han Sans CN;
-    src: url("../fonts/zh/思源黑体 CN Bold 2.001.otf");
+    font-family: CN;
+    src: url("../fonts/zh/华康金刚黑A Std Medium.otf");
     font-weight: bold;
 }
 @font-face {
@@ -42,10 +42,10 @@
 }
 
 * {
-    font-family:  "Source Han Sans CN", "Source Han Sans JP", "Arial";
+    font-family:  "CN", "JP", "Arial";
 }
 :lang(ja){
-    font-family:  "Source Han Sans JP", "Source Han Sans CN", "Arial" !important;
+    font-family:  "JP", "CN", "Arial" !important;
 }
 
 a {
