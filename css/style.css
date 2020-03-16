@@ -1,42 +1,42 @@
 @font-face {
     font-family: JP;
-    src: url("../fonts/ja/DFPGothicP-W3.ttf");
+    src: url("../fonts/ja/DFPGothicP-W3.woff");
     font-weight: normal;
 }
 @font-face {
     font-family: JP;
-    src: url("../fonts/ja/DFPGothicP-W5.ttf");
+    src: url("../fonts/ja/DFPGothicP-W5.woff");
     font-weight: bold;
 }
 @font-face {
     font-family: CN;
-    src: url("../fonts/zh/华康金刚黑A Std Light.otf");
+    src: url("../fonts/zh/华康金刚黑A Std Light.woff");
     font-weight: normal;
 }
 @font-face {
     font-family: CN;
-    src: url("../fonts/zh/华康金刚黑A Std Medium.otf");
+    src: url("../fonts/zh/华康金刚黑A Std Medium.woff");
     font-weight: bold;
 }
 @font-face {
     font-family: Arial;
-    src: url("../fonts/en/Arial.ttf");
+    src: url("../fonts/en/Arial.woff");
     font-weight: normal;
 }
 @font-face {
     font-family: Arial;
-    src: url("../fonts/en/Arial Bold.ttf");
+    src: url("../fonts/en/Arial Bold.woff");
     font-weight: bold;
 }
 @font-face {
     font-family: Arial;
-    src: url("../fonts/en/Arial Italic.ttf");
+    src: url("../fonts/en/Arial Italic.woff");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: Arial;
-    src: url("../fonts/en/Arial Bold Italic.ttf");
+    src: url("../fonts/en/Arial Bold Italic.woff");
     font-weight: bold;
     font-style: italic;
 }
