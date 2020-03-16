@@ -135,7 +135,7 @@ function initializeList () {
                     title: 
                         'ごまかし', 
                     subtitle: 
-                        '魔法纪录 魔法少女小圆外传 [OP1.1]', 
+                        '魔法纪录 魔法少女小圆外传 [OP1.2]', 
                     date: 
                         'Mar. 03, 2020', 
                     is4K: 
