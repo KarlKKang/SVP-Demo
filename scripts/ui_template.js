@@ -36,20 +36,24 @@ function createVideoContainer (param) {
                     <div class="video-disabled-content-overlay"><div class="video-disabled-content-overlay-content">' + alt + '</div></div>\
                     <img src="https://storage.googleapis.com/svp-demo/images/thumbnails/' + thumbnail + '" style="width:100%;display:block;">\
                 </div>\
+                <div class="video-shadow"></div>\
             </div>';
 	} else {
 		videoSegment = 
             '<div class="selectMenu">\
-				<select onchange="resolutionSwitch(this)">\
+				<select onchange="resolutionSwitch(this)"">\
 					<option value="2160p"' + is4K + '>2160p 60fps</option>\
 					<option value="1080p" selected>1080p 60fps</option>\
 				</select>\
 			</div>\
-            <video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/' + thumbnail + '" controls preload="none">\
-                <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
-                <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
-                此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。\
-            </video>'
+            <div class="video">\
+                <video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/' + thumbnail + '" controls preload="none">\
+                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
+                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
+                    此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。\
+                </video>\
+                <div class="video-shadow"></div>\
+            </div>'
 	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (dFilePath=='none'||dFilePath=='') {
@@ -95,6 +99,7 @@ function createVideoContainer (param) {
 			<div class="panel">' +
 				comment +
 			'</div>\
+            <div class="end-line-margin"></div>\
 		</div>';
 	
 	$("#initiator").after(element);

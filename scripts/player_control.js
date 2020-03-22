@@ -1,6 +1,6 @@
-function resolutionSwitch(dropdown) {
-    var resolution = dropdown.options[dropdown.selectedIndex].value;
-    var videoSource = dropdown.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0];
+function resolutionSwitch(select) {
+    var resolution = select.options[select.selectedIndex].value;
+    var videoSource = select.parentNode.parentNode.getElementsByTagName("video")[0].getElementsByTagName("source")[0];
     var videoSourceDirectory = videoSource.src;
     var newVideoSourceDirectory;
 

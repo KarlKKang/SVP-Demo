@@ -7,5 +7,4 @@ function initializeElements () {
 function initialize () {
 	initializeList ();
 	initializeElements ();
-	updateBackground();
 }

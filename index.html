@@ -15,15 +15,10 @@
 <script src="scripts/ui_template.js"></script>
 <script src="scripts/ui_control.js"></script>
 <script src="scripts/player_control.js"></script>
-<script>
-	if (mobileCheck()) {
-	    alert("使用电脑端访问以获得最佳体验。");
-	}
-</script>
 </head> 
 
 
-<body id="mainBody" text="#000000" link="#1069c9" vlink="#1069c9" alink="#1069c9" onresize="updateBackground()"> 
+<body id="mainBody" text="#000000" link="#1069c9" vlink="#1069c9" alink="#1069c9"> 
 	
 	<div id="loadingScreen"><div id="loadingAnimation"></div></div>
 	
@@ -41,12 +36,8 @@
 			<ol>
 				<li><p><a href="https://www.svp-team.com/">SVP官网</a></p></li>
 				<li><p>此页面上的资源仅供学习交流使用，禁止用于任何商业用途！若喜欢此作品请购买正版支持！</p></li>
-				<li><p>电脑端背景图片来自<span lang="ja">プレミアム名場面DP</span>，禁止任何下载和拷贝。如有需要请访问<a href="https://www.kyotoanimation.co.jp/shop/dp/"><span lang="ja">プレミアム名場面DP</span></a>购买正版。</p></li>
-				<li><p>电脑端背景图片版权 <span lang="ja">(C)暁佳奈・京都アニメーション／ヴァイオレット・エヴァーガーデン製作委員会</span></p></li>
 			</ol>
 		</div>
-	
-		<br />
 	
 		<button class="accordion">关于网页使用</button>
 		<div class="panel">
@@ -55,8 +46,6 @@
 				<li><p>任何bug请通过<a href="https://github.com/KarlKKang/SVP-Demo">Github</a>提交。</p></li>
 			</ol>
 		</div>
-	
-		<br />
 		
 		<button class="accordion">关于在线播放</button>
 		<div class="panel">
@@ -84,8 +73,6 @@
                 <li><p>在线播放的视频字幕均为内嵌硬字幕，如需要软字幕版本请展开“下载链接”菜单下载高质量版。</p></li>
 			</ol>
 		</div>
-		
-		<br />
 	
 		<button class="accordion">关于下载</button>
 		<div class="panel">
@@ -95,8 +82,6 @@
 				<li><p>新番源均为WebRip，故没有高质量版本提供下载。</p></li>
 			</ol>
 		</div>
-				
-		<br />
 		
 		<button class="accordion">关于视频源的选择</button>
 		<div class="panel">
@@ -106,12 +91,13 @@
 				<li><p>至于BD放流后已经做过WebRip的番会不会重做，就要随缘了~</p></li>
 			</ol>
 		</div>
+        <div class="end-line-margin"></div>
 	</div>
 	
 	<div id="initiator"></div>
 
 	<script>
-		initialize ();
+		initialize();
 		dropdown();
 	</script>
 
