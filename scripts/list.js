@@ -1,4 +1,6 @@
 var videoList = [];
+var searchList = [];
+var mode='normal';
 
 function appendList (param) {
     var index = videoList.length;
@@ -6,6 +8,10 @@ function appendList (param) {
     if (typeof param.tag === 'undefined'){
         console.log('Element \'tag\' is undefined for index ' + index + '. Assuming empty.');
         param.tag = '';
+    }
+    if (typeof param.key === 'undefined'){
+        console.log('Element \'key\' is undefined for index ' + index + '. Assuming empty.');
+        param.key = '';
     }
     if (typeof param.title === 'undefined'){
         alert('\'title\' element for index ' + index + ' must be defined!');

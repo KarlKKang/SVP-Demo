@@ -15,7 +15,7 @@ function createVideoContainer (param) {
 	if (subtitle=='none'||subtitle=='') {
 		subtitleSegment = '';
 	} else {
-		subtitleSegment = '<h3 align="center">' + subtitle + '</h3>';
+		subtitleSegment = '<h3 align="center">' + subtitle.replace(/ /g, "\u00a0") + '</h3>';
 	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	if (is4K) {
@@ -42,8 +42,8 @@ function createVideoContainer (param) {
 		videoSegment = 
             '<div class="selectMenu">\
 				<select onchange="resolutionSwitch(this)"">\
+                    <option value="1080p" selected>1080p 60fps</option>\
 					<option value="2160p"' + is4K + '>2160p 60fps</option>\
-					<option value="1080p" selected>1080p 60fps</option>\
 				</select>\
 			</div>\
             <div class="video">\
@@ -78,7 +78,7 @@ function createVideoContainer (param) {
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	var element = 
-		'<div class="VideoFrame"' + tag + '>\
+		'<div class="video-frame"' + tag + '>\
 			<h1 align="center" lang="ja">' + title + '</h1>' +
 			subtitleSegment + 
 			'<br />\
@@ -89,7 +89,7 @@ function createVideoContainer (param) {
             videoSegment +  
 			'<button class="' + downloadAccordionClass + '">下载链接</button>\
 			<div class="panel">\
-				<p><a href="https://storage.googleapis.com/svp-demo/videos/download/' + dFilePath + '">' + dFileName + '</a></p>\
+				<p><a href="https://storage.googleapis.com/svp-demo/videos/download/' + dFilePath + '">' + dFileName.replace(/ /g, "\u00a0") + '</a></p>\
 			</div>\
 			<button class="' + creditAccordionClass + '">版权及来源</button>\
 			<div class="panel">'+
@@ -101,6 +101,6 @@ function createVideoContainer (param) {
 			'</div>\
             <div class="end-line-margin"></div>\
 		</div>';
-	
-	$("#initiator").after(element);
+    
+	$("#page-end").before(element);
 }

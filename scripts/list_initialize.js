@@ -3,6 +3,8 @@ function initializeList () {
     appendList ({
                     title: 
                         '夜空', 
+                    key:
+                        '恋爱中的小行星',
                     subtitle: 
                         '恋爱小行星 [ED1]', 
                     date: 
@@ -31,6 +33,8 @@ function initializeList () {
     appendList ({
                     title: 
                         '歩いていこう！', 
+                    key:
+                        '恋爱中的小行星',
                     subtitle: 
                         '恋爱小行星 [OP3]', 
                     date: 
@@ -97,6 +101,8 @@ function initializeList () {
     appendList ({
                     title: 
                         '打上花火', 
+                    key: 
+                        '烟花，应该和谁看 升起的烟火，从下面看？从侧面看？', 
                     subtitle: 
                         '出自动画电影 烟花', 
                     date: 
@@ -404,7 +410,7 @@ function initializeList () {
                         <p lang="ja">「火炎放射器とわたし」</p>\
                         <p lang="ja">作詞 - 桑原永江・片瀬茶紫 / 作曲・編曲 - 渡部チェル / 歌 - 七瀬かりん（CV:上坂すみれ）</p>', 
                     comment: 
-                        '<p>xswl居然真的做出了一个OP，看起来好沙雕哦 &#128514;</p>'
+                        '<p>xswl居然真的做出了一个OP，看起来好沙雕哦 <span class="emoji">&#128514;</span></p>'
     });
 	
 	
@@ -466,7 +472,7 @@ function initializeList () {
                         <br />\
                         <p>感谢动漫国字幕组提供的字幕</p>', 
                     comment: 
-                        '<p>刀剑二被下架的直接原因 &#128579;</p>\
+                        '<p>刀剑二被下架的直接原因 <span class="emoji">&#128579;<span></p>\
                         <p>这个OP是A1的一贯风格，流畅度高的时候很高，低的时候也很低，所以补帧还是比较困难的。</p>\
                         <p>这也算是本传里面我最喜欢的OP了（没错我更喜欢外传OP ：）</p>'
     });
@@ -477,6 +483,8 @@ function initializeList () {
     appendList ({
                     title: 
                         'ミスターフィクサー', 
+                    key: 
+                        '异度侵入', 
                     subtitle: 
                         'ID INVADED [OP1]', 
                     date: 
@@ -509,6 +517,8 @@ function initializeList () {
     appendList ({
                     title: 
                         'sister\'s noise', 
+                    key: 
+                        '科学超电磁炮 魔法禁书目录 魔禁', 
                     subtitle: 
                         '某科学的超电磁炮S [OP1]', 
                     date: 
