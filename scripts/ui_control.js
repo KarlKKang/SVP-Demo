@@ -103,10 +103,10 @@ function updatePage (command) {
     }
 }
 
-function smoothUpdateVideos (command, rangeId) {
+function smoothUpdatePage (command, rangeId, fct = function () {}) {
     $('#'+rangeId).fadeTo(300, 0, function () {
         updatePage (command);
-        $(this).delay(0).fadeTo(300, 1);
+        $(this).delay(0).fadeTo(300, 1, fct);
     });
 }
 
@@ -123,7 +123,7 @@ function search (input) {
         return flag;
     }
     if (input == '') {
-        smoothUpdateVideos ('video','videos');
+        smoothUpdatePage ('video','videos');
     }
     else {
         searchList = [];
@@ -133,7 +133,31 @@ function search (input) {
             }
         }
         mode='search';
-        smoothUpdateVideos ('search','videos');
+        smoothUpdatePage ('search','videos');
+    }
+}
+
+function goTo (id) {
+    if (mode == 'normal') {
+        document.getElementById(id).scrollIntoView({
+            behavior: 'smooth'
+        });
+    } else {
+        if (document.getElementById(id)!=null){
+            document.getElementById(id).scrollIntoView({
+                behavior: 'smooth'
+            });
+        } else {
+            mode == 'normal';
+            smoothUpdatePage ('video','main', function () {
+                while (document.getElementById(id)==null) {
+                   updateVideoElements ();
+                }
+                document.getElementById(id).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        }
     }
 }
 

@@ -555,8 +555,8 @@ function initializeList () {
                     filePath: 
                         '', 
                     alt:
-                        '<p>修订版点击<a href="#muzui-rev">这里</a></p>\
-                        <p>Revision is available <a href="#muzui-rev">here</a></p>',
+                        '<p>修订版点击<a href="javascript:void(0);" onclick="goTo(\'muzui-rev\')">这里</a></p>\
+                        <p>Revision is available <a href="javascript:void(0);" onclick="goTo(\'muzui-rev\')">here</a></p>',
                     dFilePath: 
                         '', 
                     dFileName: 

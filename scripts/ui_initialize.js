@@ -10,6 +10,10 @@ function updateVideoElements () {
         alert("Variable 'mode' has an unexpected value: "+mode);
     }
     
+    if (currentVideoCount >= list.length) {
+        alert ("Unable to update page, current video count exceeds the limit!");
+    }
+    
 	for (var i = currentVideoCount; i < Math.min(currentVideoCount+10, list.length); i++) {
 		createVideoContainer (list[i]);
 	}
