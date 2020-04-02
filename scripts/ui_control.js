@@ -36,7 +36,7 @@ function showMenu (id) {
 }
 
 function hideMenu (id) {
-    $("#"+id).animate({opacity: "0"},300,"swing",function () {
+    $("#"+id).animate({opacity: "0"},300,function () {
         document.getElementById(id).style.display = "none";
         if (id == "nav-menu-1")
             document.getElementById("nav-menus").style.display = "none";
@@ -44,7 +44,7 @@ function hideMenu (id) {
 }
 
 function resetAllMenu () {
-    $("#nav-menus").animate({opacity: "0"},300,"swing",function () {
+    $("#nav-menus").animate({opacity: "0"},300,function () {
         $(this).css("display", "none");
         $(this).css("opacity", 1);
         $(this).children().css("display", "none");
@@ -139,26 +139,31 @@ function search (input) {
 
 function goTo (id) {
     if (mode == 'normal') {
-        document.getElementById(id).scrollIntoView({
-            behavior: 'smooth'
-        });
+        smoothScroll (id);
     } else {
         if (document.getElementById(id)!=null){
-            document.getElementById(id).scrollIntoView({
-                behavior: 'smooth'
-            });
+            smoothScroll (id);
         } else {
             mode == 'normal';
             smoothUpdatePage ('video','main', function () {
                 while (document.getElementById(id)==null) {
                    updateVideoElements ();
                 }
-                document.getElementById(id).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                smoothScroll (id);
             });
         }
     }
+}
+
+function smoothScroll (id) {
+    var offset = $('#'+id).offset();
+    
+    offset.top = offset.top-86;
+    
+    $('html, body').animate({
+        scrollTop: offset.top
+    }, 800, function(){
+    });
 }
 
 function addGoogleTranslateElement (status) {
@@ -212,6 +217,7 @@ window.addEventListener('load', function () {
     googleTranslateReset ();
     googleTranslateMonitor ();
     setTimeout(function () {
+        scrollToTop ();
         $("#loadingScreen").fadeOut(500);
     }, 3000)
 })

@@ -46,6 +46,7 @@ function keyInitialize () {
 }
 
 function initialize () {
+    jQuery.easing.def = "easeInOutCubic";
 	initializeList ();
     keyInitialize ();
 	updateVideoElements ();
