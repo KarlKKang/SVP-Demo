@@ -599,7 +599,7 @@ function initializeList () {
                         <p>感谢澄空学园提供的字幕</p>', 
                     comment: 
                         '<p>本身画质很不错，并且噪点丰富，没有做过多处理，所以相比于其他视频用了更高的码率来保留细节，如果网速不够可能会卡 :)</p>\
-                        <p><img style="max-width:288px;width:100%;" src="https://storage.googleapis.com/svp-demo/images/other/chuunibyou_1.gif" alt="chuunibyou_comment"></p>'
+                        <p><img style="max-width:288px;width:100%;" src="https://storage.googleapis.com/svp-demo/images/other/chu-2_1.gif" alt="chuunibyou_comment"></p>'
     });
 	
 	
