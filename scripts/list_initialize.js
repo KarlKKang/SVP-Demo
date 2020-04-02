@@ -11,10 +11,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'kaguya_1.jpg', 
-                    filePath: 
-                        '%E8%BE%89%E5%A4%9C%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%83%B3%E8%AE%A9%E6%88%91%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E4%BB%AC%E7%9A%84%E6%81%8B%E7%88%B1%E5%A4%B4%E8%84%91%E6%88%98%EF%BD%9E%20%5BNCED2%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E8%BE%89%E5%A4%9C%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%83%B3%E8%AE%A9%E6%88%91%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E4%BB%AC%E7%9A%84%E6%81%8B%E7%88%B1%E5%A4%B4%E8%84%91%E6%88%98%EF%BD%9E%20%5BNCED2%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '辉夜大小姐想让我告白～天才们的恋爱头脑战～ [NCED2][1080p][x264_aac].mp4', 
                     dFileName: 
                         '辉夜大小姐想让我告白～天才们的恋爱头脑战～ [NCED2][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -43,10 +41,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'kimiuso_4.jpg', 
-                    filePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCED2%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCED2%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '四月是你的谎言 [NCED2][1080p][x264_aac].mp4', 
                     dFileName: 
                         '四月是你的谎言 [NCED2][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -74,10 +70,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'kimiuso_3.jpg', 
-                    filePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCOP2%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCOP2%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '四月是你的谎言 [NCOP2][1080p][x264_aac].mp4',  
                     dFileName: 
                         '四月是你的谎言 [NCOP2][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -105,10 +99,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'kimiuso_2.jpg', 
-                    filePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCED1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCED1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '四月是你的谎言 [NCED1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '四月是你的谎言 [NCED1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -136,10 +128,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'kimiuso_1.jpg', 
-                    filePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80%20%5BNCOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '四月是你的谎言 [NCOP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '四月是你的谎言 [NCOP1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -167,10 +157,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'oregairu_1.jpg', 
-                    filePath: 
-                        '%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%81%8B%E7%88%B1%E7%89%A9%E8%AF%AD%E6%9E%9C%E7%84%B6%E6%9C%89%E9%97%AE%E9%A2%98%E3%80%82%E7%BB%AD%20%5BNCOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%81%8B%E7%88%B1%E7%89%A9%E8%AF%AD%E6%9E%9C%E7%84%B6%E6%9C%89%E9%97%AE%E9%A2%98%E3%80%82%E7%BB%AD%20%5BNCOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '我的青春恋爱物语果然有问题。续 [NCOP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '我的青春恋爱物语果然有问题。续 [NCOP1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -199,10 +187,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'dendro_1.jpg', 
-                    filePath: 
-                        '%E3%80%88Infinite%20Dendrogram%E3%80%89-%E6%97%A0%E5%B0%BD%E8%BF%9E%E9%94%81-%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '〈Infinite Dendrogram〉-无尽连锁- [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -230,10 +216,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'koiastv_2.jpg', 
-                    filePath: 
-                        '%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F%20%5BED1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '恋爱小行星 [ED1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -263,10 +247,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'koiastv_1.jpg', 
-                    filePath: 
-                        '%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F%20%5BOP3%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '恋爱小行星 [OP3][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -296,10 +278,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         '22_7_2.jpg', 
-                    filePath: 
-                        '22%EF%BC%8F7%20%5BOP1_v2%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '22／7 [OP1_v2][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -319,10 +299,10 @@ function initializeList () {
     
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     appendList ({
-                    title: 
-                        '打上花火', 
                     key: 
-                        '烟花，应该和谁看 升起的烟火，从下面看？从侧面看？', 
+                        '烟花，应该和谁看 升起的烟火，从下面看？从侧面看？',
+                    title: 
+                        '打上花火',  
                     subtitle: 
                         '出自动画电影 烟花', 
                     date: 
@@ -331,10 +311,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'uchiagehanabi.jpg', 
-                    filePath: 
-                        '%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB%20%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E6%89%93%E4%B8%8A%E8%8A%B1%E7%81%AB%20%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '打上花火 [1080p][x264_aac].mp4', 
                     dFileName: 
                         '打上花火 [Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -363,10 +341,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'magi_reco_2.jpg', 
-                    filePath: 
-                        '%E9%AD%94%E6%B3%95%E7%BA%AA%E5%BD%95%20%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%E5%A4%96%E4%BC%A0%20%5BED1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '魔法纪录 魔法少女小圆外传 [ED1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -394,10 +370,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'magica_2.jpg', 
-                    filePath: 
-                        '%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%20%5BED2%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%20%5BED2%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '魔法少女小圆 [ED2][1080p][x264_aac].mp4', 
                     dFileName: 
                         '魔法少女小圆 [ED2][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -426,10 +400,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'magi_reco_1.jpg', 
-                    filePath: 
-                        '%E9%AD%94%E6%B3%95%E7%BA%AA%E5%BD%95%20%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%E5%A4%96%E4%BC%A0%20%5BOP1.1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '魔法纪录 魔法少女小圆外传 [OP1.1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -458,10 +430,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'magica_1.jpg', 
-                    filePath: 
-                        '%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%20%5BNCOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%86%20%5BNCOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '魔法少女小圆 [NCOP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '魔法少女小圆 [NCOP1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -479,6 +449,8 @@ function initializeList () {
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     appendList ({
+                    key:
+                        '怕痛的我，把防御力点满就对了',
                     title: 
                         '究極アンバランス！', 
                     subtitle: 
@@ -489,10 +461,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'bofuri_1.jpg', 
-                    filePath: 
-                        '%E5%9B%A0%E4%B8%BA%E5%A4%AA%E6%80%95%E7%97%9B%E5%B0%B1%E5%85%A8%E7%82%B9%E9%98%B2%E5%BE%A1%E5%8A%9B%E4%BA%86%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '因为太怕痛就全点防御力了 [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -520,10 +490,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'kimetsu_1.jpg', 
-                    filePath: 
-                        '%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83%20%5BNCOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83%20%5BNCOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '鬼灭之刃 [NCOP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '鬼灭之刃 [NCOP1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -552,13 +520,11 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         '22_7_1.jpg', 
-                    filePath: 
+                    fileName: 
                         '', 
                     alt:
                         '<p>修订版点击<a href="javascript:void(0);" onclick="goTo(\'muzui-rev\')">这里</a></p>\
                         <p>Revision is available <a href="javascript:void(0);" onclick="goTo(\'muzui-rev\')">here</a></p>',
-                    dFilePath: 
-                        '', 
                     dFileName: 
                         '', 
                     credit: 
@@ -586,10 +552,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'chuunibyou_1.jpg', 
-                    filePath: 
-                        '%E4%B8%AD%E4%BA%8C%E7%97%85%E4%B9%9F%E6%83%B3%E8%B0%88%E6%81%8B%E7%88%B1%EF%BC%81%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E4%B8%AD%E4%BA%8C%E7%97%85%E4%B9%9F%E6%83%B3%E8%B0%88%E6%81%8B%E7%88%B1%EF%BC%81%20%5BOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '中二病也想谈恋爱！ [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '中二病也想谈恋爱！ [OP1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -618,10 +582,8 @@ function initializeList () {
                         false, 
                     thumbnail: 
                         'hifuki.jpg', 
-                    filePath: 
-                        '%E9%9D%92%E6%98%A5%EF%BC%81%E5%96%B7%E7%81%AB%E5%B0%91%E5%A5%B3%20%5BOP%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        '青春！喷火少女 [OP][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -647,10 +609,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'shelter.jpg', 
-                    filePath: 
-                        'Shelter%20%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        'Shelter%20%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        'Shelter [1080p][x264_aac].mp4', 
                     dFileName: 
                         'Shelter [Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -678,10 +638,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'saoii_1.jpg', 
-                    filePath: 
-                        '%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9FII%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9FII%20%5BOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '刀剑神域II [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '刀剑神域II [OP1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 
@@ -713,10 +671,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'id_invaded_1.jpg', 
-                    filePath: 
-                        'ID%20INVADED%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '', 
+                    fileName: 
+                        'ID INVADED [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '', 
                     credit: 
@@ -747,10 +703,8 @@ function initializeList () {
                         true, 
                     thumbnail: 
                         'railgun_s_1.jpg', 
-                    filePath: 
-                        '%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%B6%85%E7%94%B5%E7%A3%81%E7%82%AES%20%5BOP1%5D%5B1080p%5D%5Bx264_aac%5D.mp4', 
-                    dFilePath: 
-                        '%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%B6%85%E7%94%B5%E7%A3%81%E7%82%AES%20%5BOP1%5D%5BMa10p_2160p%5D%5Bx265_flac%5D.mkv', 
+                    fileName: 
+                        '某科学的超电磁炮S [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
                         '某科学的超电磁炮S [OP1][Ma10p_2160p][x265_flac].mkv', 
                     credit: 

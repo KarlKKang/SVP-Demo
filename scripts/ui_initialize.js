@@ -40,7 +40,7 @@ function keyInitialize () {
     
     for (var i=0; i<videoList.length; i++) {
         keyElement = 
-            '<div>'+videoList[i].key+videoList[i].title+videoList[i].subtitle+videoList[i].date+videoList[i].dFileName+videoList[i].credit+videoList[i].comment+'</div>';
+            '<div>'+videoList[i].key+videoList[i].title+videoList[i].subtitle+videoList[i].date+videoList[i].fileName+videoList[i].dFileName+videoList[i].credit+videoList[i].comment+'</div>';
         $("#key").append(keyElement);
     }
 }

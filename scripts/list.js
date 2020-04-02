@@ -33,20 +33,16 @@ function appendList (param) {
         console.log('Element \'thumbnail\' is undefined for index ' + index + '. Assuming empty.');
         param.thumbnail = '';
     }
-    if (typeof param.filePath === 'undefined'){
-        console.log('Element \'filePath\' is undefined for index ' + index + '. Assuming empty.');
-        param.filePath = '';
+    if (typeof param.fileName === 'undefined'){
+        console.log('Element \'fileName\' is undefined for index ' + index + '. Assuming empty.');
+        param.fileName = '';
     }
     if (typeof param.alt === 'undefined'){
         console.log('Element \'alt\' is undefined for index ' + index + '. Assuming empty.');
         param.alt = '';
     }
-    if (typeof param.dFilePath === 'undefined'){
-        console.log('Element \'dFilePath\' is undefined for index ' + index + '. Assuming empty.');
-        param.dFilePath = '';
-    }
     if (typeof param.dFileName === 'undefined'){
-        console.log('Element \'dFilePath\' is undefined for index ' + index + '. Assuming empty.');
+        console.log('Element \'dFileName\' is undefined for index ' + index + '. Assuming empty.');
         param.dFileName = '';
     }
     if (typeof param.credit === 'undefined'){
@@ -58,23 +54,17 @@ function appendList (param) {
         param.comment = '';
     }
     
-    if ((param.dFilePath == '' || param.dFilePath == 'none') && (param.dFileName != '' && param.dFileName != 'none')){
-        alert('Element \'dFileName\' is defined for index ' + index + ' but element \'dFilePath\' is undefined.');
-    } else if ((param.dFileName == '' || param.dFileName == 'none')&&(param.dFilePath != '' && param.dFilePath != 'none')) {
-        alert('Element \'dFilePath\' is defined for index ' + index + ' but element \'dFileName\' is undefined.');
-    }
-    
-    if (param.filePath == '' || param.filePath == 'none'){
+    if (param.fileName == '' || param.fileName == 'none'){
         if (param.thumbnail =='' || param.thumbnail =='none'){
-            console.log('Elements \'thumbnail\' and \'filePath\' are both undefined for index ' + index + '.');
+            console.log('Elements \'thumbnail\' and \'fileName\' are both undefined for index ' + index + '.');
         }
         if (param.alt =='' || param.alt =='none'){
-            console.log('Elements \'filePath\' and \'alt\' are both undefined for index ' + index + '. Using default value for \'alt\'.');
+            console.log('Elements \'fileName\' and \'alt\' are both undefined for index ' + index + '. Using default value for \'alt\'.');
             param.alt = '<p>Video currently unavailable.</p>';
         }
     } else{
         if (param.alt !='' && param.alt !='none'){
-            console.log('Elements \'filePath\' and \'alt\' are both defined for index ' + index + '. Revert \'alt\' to empty.');
+            console.log('Elements \'fileName\' and \'alt\' are both defined for index ' + index + '. Revert \'alt\' to empty.');
             param.alt = '';
         }
     }

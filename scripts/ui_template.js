@@ -1,5 +1,5 @@
 function createVideoContainer (param) {
-    var tag = param.tag, title = param.title, subtitle = param.subtitle, date = param.date, is4K = param.is4K, thumbnail = param.thumbnail, filePath = param.filePath, alt = param.alt, dFilePath = param.dFilePath, dFileName = param.dFileName, credit = param.credit, comment = param.comment;
+    var tag = param.tag, title = param.title, subtitle = param.subtitle, date = param.date, is4K = param.is4K, thumbnail = param.thumbnail, fileName = param.fileName, alt = param.alt, dFileName = param.dFileName, credit = param.credit, comment = param.comment;
 	var subtitleSegment;
     var videoSegment;
     var downloadAccordionClass;
@@ -24,7 +24,7 @@ function createVideoContainer (param) {
 		is4K = 'disabled';
 	}
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	if (filePath=='none'||filePath=='') {
+	if (fileName=='none'||fileName=='') {
         videoSegment = 
             '<div class="selectMenu">\
                 <select>\
@@ -48,15 +48,15 @@ function createVideoContainer (param) {
 			</div>\
             <div class="video">\
                 <video poster="https://storage.googleapis.com/svp-demo/images/thumbnails/' + thumbnail + '" controls preload="none">\
-                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
-                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + filePath + '" type="video/mp4">\
+                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + encodeURI(fileName) + '" type="video/mp4">\
+                    <source src="https://storage.googleapis.com/svp-demo/videos/online/' + encodeURI(fileName) + '" type="video/mp4">\
                     此浏览器不支持在线视频播放，请更换浏览器或播放设备播放，或在下方“下载链接”区域下载高质量的视频用本地播放器播放。\
                 </video>\
                 <div class="video-shadow"></div>\
             </div>'
 	}
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	if (dFilePath=='none'||dFilePath=='') {
+	if (dFileName=='none'||dFileName=='') {
 		downloadAccordionClass = 'accordionDisabled';
 	} else {
         downloadAccordionClass = 'accordion';
@@ -89,7 +89,7 @@ function createVideoContainer (param) {
             videoSegment +  
 			'<button class="' + downloadAccordionClass + '">下载链接</button>\
 			<div class="panel">\
-				<p><a href="https://storage.googleapis.com/svp-demo/videos/download/' + dFilePath + '">' + dFileName.replace(/ /g, "\u00a0") + '</a></p>\
+				<p><a href="https://storage.googleapis.com/svp-demo/videos/download/' + encodeURI(dFileName) + '">' + dFileName.replace(/ /g, "\u00a0") + '</a></p>\
 			</div>\
 			<button class="' + creditAccordionClass + '">版权及来源</button>\
 			<div class="panel">'+
