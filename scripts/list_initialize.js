@@ -311,7 +311,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        '22_7_2.jpg', 
+                        '227_2.jpg', 
                     fileName: 
                         '22／7 [OP1_v2][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -344,7 +344,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'uchiagehanabi.jpg', 
+                        'uchiagehanabi_1.jpg', 
                     fileName: 
                         '打上花火 [1080p][x264_aac].mp4', 
                     dFileName: 
@@ -374,7 +374,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'magi_reco_2.jpg', 
+                        'magireco_2.jpg', 
                     fileName: 
                         '魔法纪录 魔法少女小圆外传 [ED1][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -403,7 +403,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'magica_2.jpg', 
+                        'madoka-magica_2.jpg', 
                     fileName: 
                         '魔法少女小圆 [ED2][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -433,7 +433,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'magi_reco_1.jpg', 
+                        'magireco_1.jpg', 
                     fileName: 
                         '魔法纪录 魔法少女小圆外传 [OP1.1][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -463,7 +463,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'magica_1.jpg', 
+                        'madoka-magica_1.jpg', 
                     fileName: 
                         '魔法少女小圆 [NCOP1][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -553,7 +553,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        '22_7_1.jpg', 
+                        '227_1.jpg', 
                     fileName: 
                         '', 
                     alt:
@@ -585,7 +585,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'chuunibyou_1.jpg', 
+                        'chu-2_1.jpg', 
                     fileName: 
                         '中二病也想谈恋爱！ [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -615,7 +615,7 @@ function initializeList () {
                     is4K: 
                         false, 
                     thumbnail: 
-                        'hifuki.jpg', 
+                        'kyokousuiri_1.jpg', 
                     fileName: 
                         '青春！喷火少女 [OP][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -642,7 +642,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'shelter.jpg', 
+                        'shelter_1.jpg', 
                     fileName: 
                         'Shelter [1080p][x264_aac].mp4', 
                     dFileName: 
@@ -671,7 +671,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'saoii_1.jpg', 
+                        'sao-ii_1.jpg', 
                     fileName: 
                         '刀剑神域II [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -704,7 +704,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'id_invaded_1.jpg', 
+                        'id-invaded_1.jpg', 
                     fileName: 
                         'ID INVADED [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
@@ -736,7 +736,7 @@ function initializeList () {
                     is4K: 
                         true, 
                     thumbnail: 
-                        'railgun_s_1.jpg', 
+                        'railgun-s_1.jpg', 
                     fileName: 
                         '某科学的超电磁炮S [OP1][1080p][x264_aac].mp4', 
                     dFileName: 
