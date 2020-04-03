@@ -42,8 +42,8 @@ function createVideoContainer (param) {
 		videoSegment = 
             '<div class="selectMenu">\
 				<select onchange="resolutionSwitch(this)"">\
-                    <option value="1080p" selected>1080p 60fps</option>\
-					<option value="2160p"' + is4K + '>2160p 60fps</option>\
+                    <option value="1080p" selected>1080p60</option>\
+					<option value="2160p"' + is4K + '>2160p60</option>\
 				</select>\
 			</div>\
             <div class="video">\
