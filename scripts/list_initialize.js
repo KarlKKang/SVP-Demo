@@ -4,6 +4,37 @@ function initializeList () {
                     key: 
                         '魔禁', 
                     title: 
+                        'Rimless〜フチナシノセカイ〜', 
+                    subtitle: 
+                        '魔法禁书目录 [NCED1]', 
+                    date: 
+                        'Apr. 07, 2020', 
+                    is4K: 
+                        true, 
+                    thumbnail: 
+                        'index_2.jpg', 
+                    fileName: 
+                        '魔法禁书目录 [NCED1][1080p][x264_aac].mp4', 
+                    dFileName: 
+                        '魔法禁书目录 [NCED1][Ma10p_2160p][x265_flac].mkv', 
+                    credit: 
+                        '<p lang="ja">&copy;鎌池和馬/アスキー・メディアワークス/PROJECT-INDEX</p>\
+                        <br />\
+                        <p lang="ja">「Rimless〜フチナシノセカイ〜」</p>\
+                        <p lang="ja">作詞・歌 - IKU / 作曲 - 高瀬一矢、IKU / 編曲 - 高瀬一矢</p>\
+                        <br />\
+                        <p>感谢澄空&极影字幕组提供的字幕</p>', 
+                    comment: 
+                        '<p>怀念的全家福</p>'
+    });
+    
+    
+    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    appendList ({
+                    key: 
+                        '魔禁', 
+                    title: 
                         'PSI-missing', 
                     subtitle: 
                         '魔法禁书目录 [NCOP1]', 
