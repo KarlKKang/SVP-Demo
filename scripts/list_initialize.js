@@ -4,6 +4,37 @@ function initializeList () {
                     key: 
                         '魔禁', 
                     title: 
+                        'masterpiece', 
+                    subtitle: 
+                        '魔法禁书目录 [NCOP2]', 
+                    date: 
+                        'Apr. 08, 2020', 
+                    is4K: 
+                        true, 
+                    thumbnail: 
+                        'index_3.jpg', 
+                    fileName: 
+                        '魔法禁书目录 [NCOP2][1080p][x264_aac].mp4', 
+                    dFileName: 
+                        '魔法禁书目录 [NCOP2][Ma10p_2160p][x265_flac].mkv', 
+                    credit: 
+                        '<p lang="ja">&copy;鎌池和馬/アスキー・メディアワークス/PROJECT-INDEX</p>\
+                        <br />\
+                        <p lang="ja">「masterpiece」</p>\
+                        <p lang="ja">作詞・歌 - 川田まみ / 作曲・編曲 - 井内舞子</p>\
+                        <br />\
+                        <p>感谢澄空&极影字幕组提供的字幕</p>', 
+                    comment: 
+                        '<p>本身分镜就很复杂，有明显补帧效果的其实也就是一些平移放大场景。</p>'
+    });
+    
+    
+    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    appendList ({
+                    key: 
+                        '魔禁', 
+                    title: 
                         'Rimless〜フチナシノセカイ〜', 
                     subtitle: 
                         '魔法禁书目录 [NCED1]', 
